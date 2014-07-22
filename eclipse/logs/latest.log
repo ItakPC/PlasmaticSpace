@@ -1,0 +1,141 @@
+[08:39:20] [main/INFO]: Setting user: ForgeDevName
+[08:39:22] [Client thread/INFO]: LWJGL Version: 2.9.0
+[08:39:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:PlasmaCraft
+[08:39:30] [Sound Library Loader/INFO]: Sound engine started
+[08:39:34] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:581) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:892) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_51]
+	at GradleStart.bounce(GradleStart.java:108) [start/:?]
+	at GradleStart.startClient(GradleStart.java:101) [start/:?]
+	at GradleStart.main(GradleStart.java:56) [start/:?]
+[08:39:34] [Client thread/ERROR]: Using missing texture, unable to load plasmacraft:textures/blocks/blockLimestoneSmallBrick.png
+java.io.FileNotFoundException: plasmacraft:textures/blocks/blockLimestoneSmallBrick.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:581) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:892) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_51]
+	at GradleStart.bounce(GradleStart.java:108) [start/:?]
+	at GradleStart.startClient(GradleStart.java:101) [start/:?]
+	at GradleStart.main(GradleStart.java:56) [start/:?]
+[08:39:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[08:39:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[08:39:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:PlasmaCraft
+[08:39:35] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[08:39:35] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:626) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:585) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:892) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_51]
+	at GradleStart.bounce(GradleStart.java:108) [start/:?]
+	at GradleStart.startClient(GradleStart.java:101) [start/:?]
+	at GradleStart.main(GradleStart.java:56) [start/:?]
+[08:39:35] [Client thread/ERROR]: Using missing texture, unable to load plasmacraft:textures/blocks/blockLimestoneSmallBrick.png
+java.io.FileNotFoundException: plasmacraft:textures/blocks/blockLimestoneSmallBrick.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:626) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:585) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:892) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_51]
+	at GradleStart.bounce(GradleStart.java:108) [start/:?]
+	at GradleStart.startClient(GradleStart.java:101) [start/:?]
+	at GradleStart.main(GradleStart.java:56) [start/:?]
+[08:39:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[08:39:36] [Sound Library Loader/INFO]: Sound engine started
+[08:39:40] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[08:39:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[08:39:42] [Server thread/INFO]: Generating keypair
+[08:39:43] [Server thread/INFO]: Preparing start region for level 0
+[08:39:44] [Server thread/INFO]: ForgeDevName[local:E:a91361e1] logged in with entity id 190 at (1020.7758663932387, 4.0, -437.9759186312768)
+[08:39:44] [Server thread/INFO]: ForgeDevName joined the game
+[08:47:36] [Client thread/INFO]: [CHAT] Saved screenshot as 2014-07-22_08.47.36.png
+[08:48:15] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[08:48:16] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[08:48:17] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[08:48:19] [Server thread/INFO]: [ForgeDevName: Game rule has been updated]
+[08:48:19] [Client thread/INFO]: [CHAT] Game rule has been updated
+[08:48:24] [Server thread/INFO]: [ForgeDevName: Set the time to 6000]
+[08:48:24] [Client thread/INFO]: [CHAT] Set the time to 6000
+[08:48:43] [Server thread/INFO]: Saving and pausing game...
+[08:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:48:44] [Server thread/INFO]: Stopping server
+[08:48:44] [Server thread/INFO]: Saving players
+[08:48:44] [Server thread/INFO]: Saving worlds
+[08:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:48:48] [Client thread/INFO]: Stopping!

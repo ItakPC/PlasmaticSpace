@@ -41,7 +41,7 @@ public class GuiHandler implements IGuiHandler {
 
         }
 
-                return null;
-        }
+        return null;
     }
+}
 

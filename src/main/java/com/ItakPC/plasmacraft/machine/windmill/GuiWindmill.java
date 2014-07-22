@@ -8,7 +8,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class GuiWindmill extends GuiContainer{
 
-    public final ResourceLocation texture = new ResourceLocation(Reference.MOD_ID, "textures/gui/windmillBasicGUI.png");
+    public final ResourceLocation texture = new ResourceLocation(Reference.MOD_ID, "textures/gui/guiWindmill.png");
 
     private TileEntityWindmill tileEntityWindmill;
 
@@ -31,3 +31,4 @@ public class GuiWindmill extends GuiContainer{
         drawTexturedModalRect(guiLeft+152, guiTop+7+53-i, 177, 1, 16, i);
     }
 }
+

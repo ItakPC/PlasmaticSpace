@@ -164,8 +164,8 @@ public class TileEntityRenderWindmill extends TileEntitySpecialRenderer {
             tesselator.addVertexWithUV(-2*pixel, 0.5F+1*pixel, -1.5F, 9*(1F/textureWidth), 0*(1F/textureHeight));
             tesselator.addVertexWithUV(-2*pixel, 0.5F+1*pixel, 0.5F-1*pixel, 8*(1F/textureWidth), 0*(1F/textureHeight));
             tesselator.addVertexWithUV(-2*pixel, 0.5F-1*pixel, 0.5F-1*pixel, 8*(1F/textureWidth), 1*(1F/textureHeight));
-            }
-            tesselator.draw();
         }
+        tesselator.draw();
     }
+}
 

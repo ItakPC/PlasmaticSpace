@@ -21,7 +21,7 @@ public class ContainerWindmill extends Container {
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 9; j++) {
-               this.addSlotToContainer(new Slot(inventoryPlayer, 9+j+i*9, 8 + j*18, 84+i*18));
+                this.addSlotToContainer(new Slot(inventoryPlayer, 9+j+i*9, 8 + j*18, 84+i*18));
             }
         }
 

@@ -1,0 +1,12 @@
+item.plasmacraft:debugTool.name=Debug Tool
+item.itemWindmill.name=Windmill
+
+tile.blockWindmill.name=Windmill DEBUG
+
+tile.plasmacraft:blockMarble.name=Marble Block
+tile.plasmacraft:blockBasalt.name=Basalt Block
+tile.plasmacraft:blockLimestone.name=Limestone Block
+
+itemGroup.plasmacraftItems=PlasmaCraft Items
+itemGroup.plasmacraftBlocks=PlasmaCraft Blocks
+itemGroup.plasmacraftMisc=PlasmaCraft Misc
