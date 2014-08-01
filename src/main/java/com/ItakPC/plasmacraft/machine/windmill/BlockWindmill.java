@@ -9,6 +9,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.client.event.DrawBlockHighlightEvent;
 
 public class BlockWindmill extends BlockContainer {
 
@@ -20,11 +21,10 @@ public class BlockWindmill extends BlockContainer {
         float pixel = 1F/16F;
 
         if(blockAccess.getBlockMetadata(x, y, z) < 7) {
-            this.setBlockBounds(pixel*4, 0, pixel*4, 1-pixel*4, 1, 1-pixel*4);
+            this.setBlockBounds(pixel * 4, 0, pixel * 4, 1 - pixel * 4, 1, 1 - pixel * 4);
         }else{
-            this.setBlockBounds(0 ,0, 0, 1, 1, 1);
+            this.setBlockBounds(0, 0, 0, 1, 1, 1);
         }
-
     }
 
     public int getRenderType() {

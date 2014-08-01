@@ -1,8 +1,8 @@
-[08:39:20] [main/INFO]: Setting user: ForgeDevName
-[08:39:22] [Client thread/INFO]: LWJGL Version: 2.9.0
-[08:39:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:PlasmaCraft
-[08:39:30] [Sound Library Loader/INFO]: Sound engine started
-[08:39:34] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
+[20:11:20] [main/INFO]: Setting user: ForgeDevName
+[20:11:22] [Client thread/INFO]: LWJGL Version: 2.9.0
+[20:11:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:PlasmaCraft
+[20:11:32] [Sound Library Loader/INFO]: Sound engine started
+[20:11:35] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -27,8 +27,8 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_165_
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[08:39:34] [Client thread/ERROR]: Using missing texture, unable to load plasmacraft:textures/blocks/blockLimestoneSmallBrick.png
-java.io.FileNotFoundException: plasmacraft:textures/blocks/blockLimestoneSmallBrick.png
+[20:11:36] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_166_energyConduit.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_166_energyConduit.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -52,11 +52,11 @@ java.io.FileNotFoundException: plasmacraft:textures/blocks/blockLimestoneSmallBr
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[08:39:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[08:39:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[08:39:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:PlasmaCraft
-[08:39:35] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[08:39:35] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
+[20:11:36] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:11:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:11:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:PlasmaCraft
+[20:11:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:11:36] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_165_blockWindmill.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -84,8 +84,8 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_165_
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[08:39:35] [Client thread/ERROR]: Using missing texture, unable to load plasmacraft:textures/blocks/blockLimestoneSmallBrick.png
-java.io.FileNotFoundException: plasmacraft:textures/blocks/blockLimestoneSmallBrick.png
+[20:11:37] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_166_energyConduit.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_166_energyConduit.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -112,30 +112,26 @@ java.io.FileNotFoundException: plasmacraft:textures/blocks/blockLimestoneSmallBr
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[08:39:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[08:39:36] [Sound Library Loader/INFO]: Sound engine started
-[08:39:40] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[08:39:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[08:39:42] [Server thread/INFO]: Generating keypair
-[08:39:43] [Server thread/INFO]: Preparing start region for level 0
-[08:39:44] [Server thread/INFO]: ForgeDevName[local:E:a91361e1] logged in with entity id 190 at (1020.7758663932387, 4.0, -437.9759186312768)
-[08:39:44] [Server thread/INFO]: ForgeDevName joined the game
-[08:47:36] [Client thread/INFO]: [CHAT] Saved screenshot as 2014-07-22_08.47.36.png
-[08:48:15] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
-[08:48:16] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
-[08:48:17] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
-[08:48:19] [Server thread/INFO]: [ForgeDevName: Game rule has been updated]
-[08:48:19] [Client thread/INFO]: [CHAT] Game rule has been updated
-[08:48:24] [Server thread/INFO]: [ForgeDevName: Set the time to 6000]
-[08:48:24] [Client thread/INFO]: [CHAT] Set the time to 6000
-[08:48:43] [Server thread/INFO]: Saving and pausing game...
-[08:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[08:48:44] [Server thread/INFO]: Stopping server
-[08:48:44] [Server thread/INFO]: Saving players
-[08:48:44] [Server thread/INFO]: Saving worlds
-[08:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[08:48:48] [Client thread/INFO]: Stopping!
+[20:11:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:11:38] [Sound Library Loader/INFO]: Sound engine started
+[20:11:42] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[20:11:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[20:11:44] [Server thread/INFO]: Generating keypair
+[20:11:44] [Server thread/INFO]: Preparing start region for level 0
+[20:11:46] [Server thread/INFO]: ForgeDevName[local:E:059ba298] logged in with entity id 212 at (1013.7177118861472, 4.0, -457.25321847792645)
+[20:11:46] [Server thread/INFO]: ForgeDevName joined the game
+[20:15:48] [Server thread/INFO]: Saving and pausing game...
+[20:15:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:15:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:15:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:26:52] [Server thread/INFO]: Saving and pausing game...
+[20:26:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:26:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:26:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:26:52] [Server thread/INFO]: Stopping server
+[20:26:52] [Server thread/INFO]: Saving players
+[20:26:52] [Server thread/INFO]: Saving worlds
+[20:26:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:26:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:26:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:26:53] [Client thread/INFO]: Stopping!

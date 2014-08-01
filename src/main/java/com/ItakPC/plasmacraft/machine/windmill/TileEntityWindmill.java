@@ -14,20 +14,20 @@ public class TileEntityWindmill extends TileEntity implements ISidedInventory {
 
     public float rotation = 0;
 
-    public int maxPower = 12800;
+    public int maxPower = 128000;
 
     public float power = 0;
 
-    public float powerPerRotation = 0.1F;
+    public float powerPerTick = 0.1F;
 
     public void updateEntity() {
         if (this.getWorldObj().getBlockMetadata(this.xCoord, this.yCoord, this.zCoord) > 6) {
 
             rotation++;
 
-            powerPerRotation = 5;
+            powerPerTick = 128;
 
-            power += powerPerRotation;
+            power += powerPerTick;
             if (power > maxPower) power = maxPower;
         }
     }

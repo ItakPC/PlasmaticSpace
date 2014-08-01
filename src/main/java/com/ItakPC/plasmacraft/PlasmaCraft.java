@@ -1,12 +1,12 @@
 package com.ItakPC.plasmacraft;
 
+import com.ItakPC.plasmacraft.cable.BlockEnergyConduit;
+import com.ItakPC.plasmacraft.cable.TileEntityEnergyConduit;
 import com.ItakPC.plasmacraft.creativetabs.PlasmaCraftMachine;
-import com.ItakPC.plasmacraft.event.HighlightEvent;
 import com.ItakPC.plasmacraft.handler.ConfigurationHandler;
 import com.ItakPC.plasmacraft.handler.GuiHandler;
 import com.ItakPC.plasmacraft.init.ModBlocks;
 import com.ItakPC.plasmacraft.init.ModItems;
-import com.ItakPC.plasmacraft.init.ModMachines;
 import com.ItakPC.plasmacraft.init.world.Decoration;
 import com.ItakPC.plasmacraft.machine.windmill.ItemWindmill;
 import com.ItakPC.plasmacraft.machine.windmill.BlockWindmill;
@@ -24,7 +24,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
-import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.MOD_NAME, guiFactory = Reference.GuiFactoryClass)
 
@@ -47,18 +46,17 @@ public class PlasmaCraft {
 
         itemWindmill = new ItemWindmill().setTextureName("diamond").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine).setUnlocalizedName("itemWindmill");
         blockWindmill = new BlockWindmill(Material.iron).setBlockName("blockWindmill");
-        //energyConduit = new BlockEnergyConduit().setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine).setBlockName("energyConduit");
+        energyConduit = new BlockEnergyConduit(Material.iron).setBlockName("energyConduit").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
 
         GameRegistry.registerItem(itemWindmill, "itemWindmill");
         GameRegistry.registerBlock(blockWindmill, "blockWindmill");
-        //GameRegistry.registerBlock(energyConduit, "energyConduit");
+        GameRegistry.registerBlock(energyConduit, "energyConduit");
 
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
         ModBlocks.init();
-        ModMachines.init();
         Decoration.init();
     }
 
@@ -66,9 +64,9 @@ public class PlasmaCraft {
     public void init(FMLInitializationEvent event) {
 
         GameRegistry.registerTileEntity(TileEntityWindmill.class, "windmillBasic");
+        GameRegistry.registerTileEntity(TileEntityEnergyConduit.class, "energyConduit");
 
         NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
-        MinecraftForge.EVENT_BUS.register(new HighlightEvent());
 
         proxy.registerProxies();
     }
