@@ -1,0 +1,39 @@
+package com.ItakPC.plasmacraft;
+
+import com.ItakPC.plasmacraft.proxy.IProxy;
+import com.ItakPC.plasmacraft.reference.Reference;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Reference.MOD_ID, version = Reference.NAME)
+
+public class PlasmaCraft {
+	
+	@Mod.Instance
+	public static PlasmaCraft instance;
+	
+	@SidedProxy(clientSide= "com.ItakPC.plasmacraft.proxy.ClintProxy", serverSide = "com.ItakPC.plasmacraft.proxy.ServerProxy")
+	public static IProxy proxy;
+	
+    public static final String MODID = "plasmacraft";
+    public static final String VERSION = "0.0.0 Dev";
+    
+    @Mod.EventHandler
+    public void preInit(FMLPreInitializationEvent event) {
+    	
+    }
+    
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event) {
+    	
+    }
+    
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+    	
+    }
+}

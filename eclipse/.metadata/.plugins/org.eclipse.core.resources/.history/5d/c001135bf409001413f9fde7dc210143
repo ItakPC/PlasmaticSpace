@@ -1,0 +1,17 @@
+package com.example.examplemod;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+
+@Mod(modid = PlasmaCraft.MODID, version = PlasmaCraft.VERSION)
+public class PlasmaCraft
+{
+    public static final String MODID = "plasmacraft";
+    public static final String VERSION = "0.0.0 Dev";
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event) {
+    	
+    }
+}

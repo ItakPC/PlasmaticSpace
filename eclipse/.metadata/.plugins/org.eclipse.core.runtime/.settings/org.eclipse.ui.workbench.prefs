@@ -1,0 +1,9 @@
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.jdt.ui.presentation\tTorg.eclipse.mylyn.tasks.ui.presentation\tTorg.eclipse.compare.contentmergeviewer.TextMergeViewer
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.dialogfont
+ENABLED_DECORATORS=org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator\:true,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:false,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.pde.ui.binaryProjectDecorator\:false,org.eclipse.team.cvs.ui.decorator\:false,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,
+eclipse.preferences.version=1
+org.eclipse.jface.bannerfont=1|Comic Sans MS|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|-18|3|2|1|66|Comic Sans MS;
+org.eclipse.jface.dialogfont=1|Comic Sans MS|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|66|Comic Sans MS;
+org.eclipse.jface.headerfont=1|Comic Sans MS|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|66|Comic Sans MS;
+org.eclipse.jface.textfont=1|Comic Sans MS|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|66|Comic Sans MS;
+org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Comic Sans MS|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|66|Comic Sans MS;

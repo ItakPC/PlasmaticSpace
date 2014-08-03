@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "0.0.2"
-group= "com.ItakPC.plasmacraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "plasmacraft"
+version = "1.7.10-0.0.0"
+group= "com.ItakPC.plasmaticspace" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "plasmaticspace"
 
 minecraft {
-    version = "1.7.2-10.12.2.1147"
+    version = "1.7.10-10.13.0.1180"
     assetDir = "eclipse/assets"
 }
 
