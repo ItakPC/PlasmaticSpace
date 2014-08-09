@@ -255,7 +255,6 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     ACONST_NULL
     CHECKCAST net/minecraft/item/ItemStack
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.setItemStack (Lnet/minecraft/item/ItemStack;)V
-   L22
     GOTO L11
    L8
     LINENUMBER 119 L8
@@ -263,14 +262,14 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     ALOAD 1
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.field_147064_C : Lnet/minecraft/inventory/Slot;
-    IF_ACMPNE L23
+    IF_ACMPNE L22
     ILOAD 5
-    IFEQ L23
-   L24
-    LINENUMBER 121 L24
+    IFEQ L22
+   L23
+    LINENUMBER 121 L23
     ICONST_0
     ISTORE 8
-   L25
+   L24
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I T T I] []
     ILOAD 8
     ALOAD 0
@@ -280,8 +279,8 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     INVOKEVIRTUAL net/minecraft/inventory/Container.getInventory ()Ljava/util/List;
     INVOKEINTERFACE java/util/List.size ()I
     IF_ICMPGE L11
-   L26
-    LINENUMBER 123 L26
+   L25
+    LINENUMBER 123 L25
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.playerController : Lnet/minecraft/client/multiplayer/PlayerControllerMP;
@@ -289,25 +288,25 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     CHECKCAST net/minecraft/item/ItemStack
     ILOAD 8
     INVOKEVIRTUAL net/minecraft/client/multiplayer/PlayerControllerMP.sendSlotPacket (Lnet/minecraft/item/ItemStack;I)V
-   L27
-    LINENUMBER 121 L27
+   L26
+    LINENUMBER 121 L26
     IINC 8 1
-    GOTO L25
-   L23
-    LINENUMBER 130 L23
+    GOTO L24
+   L22
+    LINENUMBER 130 L22
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] []
     GETSTATIC net/minecraft/client/gui/inventory/GuiContainerCreative.selectedTabIndex : I
     GETSTATIC net/minecraft/creativetab/CreativeTabs.tabInventory : Lnet/minecraft/creativetab/CreativeTabs;
     INVOKEVIRTUAL net/minecraft/creativetab/CreativeTabs.getTabIndex ()I
-    IF_ICMPNE L28
-   L29
-    LINENUMBER 132 L29
+    IF_ICMPNE L27
+   L28
+    LINENUMBER 132 L28
     ALOAD 1
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.field_147064_C : Lnet/minecraft/inventory/Slot;
-    IF_ACMPNE L30
-   L31
-    LINENUMBER 134 L31
+    IF_ACMPNE L29
+   L30
+    LINENUMBER 134 L30
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
@@ -316,35 +315,35 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     CHECKCAST net/minecraft/item/ItemStack
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.setItemStack (Lnet/minecraft/item/ItemStack;)V
     GOTO L11
-   L30
-    LINENUMBER 136 L30
+   L29
+    LINENUMBER 136 L29
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] []
     ILOAD 4
     ICONST_4
-    IF_ICMPNE L32
+    IF_ICMPNE L31
     ALOAD 1
-    IFNULL L32
+    IFNULL L31
     ALOAD 1
     INVOKEVIRTUAL net/minecraft/inventory/Slot.getHasStack ()Z
-    IFEQ L32
-   L33
-    LINENUMBER 138 L33
+    IFEQ L31
+   L32
+    LINENUMBER 138 L32
     ALOAD 1
     ILOAD 3
-    IFNE L34
+    IFNE L33
     ICONST_1
-    GOTO L35
-   L34
+    GOTO L34
+   L33
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] [net/minecraft/inventory/Slot]
     ALOAD 1
     INVOKEVIRTUAL net/minecraft/inventory/Slot.getStack ()Lnet/minecraft/item/ItemStack;
     INVOKEVIRTUAL net/minecraft/item/ItemStack.getMaxStackSize ()I
-   L35
+   L34
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] [net/minecraft/inventory/Slot I]
     INVOKEVIRTUAL net/minecraft/inventory/Slot.decrStackSize (I)Lnet/minecraft/item/ItemStack;
     ASTORE 9
-   L36
-    LINENUMBER 139 L36
+   L35
+    LINENUMBER 139 L35
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
@@ -352,28 +351,28 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     ICONST_1
     INVOKEVIRTUAL net/minecraft/client/entity/EntityClientPlayerMP.dropPlayerItemWithRandomChoice (Lnet/minecraft/item/ItemStack;Z)Lnet/minecraft/entity/item/EntityItem;
     POP
-   L37
-    LINENUMBER 140 L37
+   L36
+    LINENUMBER 140 L36
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.playerController : Lnet/minecraft/client/multiplayer/PlayerControllerMP;
     ALOAD 9
     INVOKEVIRTUAL net/minecraft/client/multiplayer/PlayerControllerMP.sendPacketDropItem (Lnet/minecraft/item/ItemStack;)V
     GOTO L11
-   L32
-    LINENUMBER 142 L32
+   L31
+    LINENUMBER 142 L31
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] []
     ILOAD 4
     ICONST_4
-    IF_ICMPNE L38
+    IF_ICMPNE L37
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
     GETFIELD net/minecraft/client/entity/EntityClientPlayerMP.inventory : Lnet/minecraft/entity/player/InventoryPlayer;
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.getItemStack ()Lnet/minecraft/item/ItemStack;
-    IFNULL L38
-   L39
-    LINENUMBER 144 L39
+    IFNULL L37
+   L38
+    LINENUMBER 144 L38
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
@@ -385,8 +384,8 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     ICONST_1
     INVOKEVIRTUAL net/minecraft/client/entity/EntityClientPlayerMP.dropPlayerItemWithRandomChoice (Lnet/minecraft/item/ItemStack;Z)Lnet/minecraft/entity/item/EntityItem;
     POP
-   L40
-    LINENUMBER 145 L40
+   L39
+    LINENUMBER 145 L39
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.playerController : Lnet/minecraft/client/multiplayer/PlayerControllerMP;
@@ -396,8 +395,8 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     GETFIELD net/minecraft/client/entity/EntityClientPlayerMP.inventory : Lnet/minecraft/entity/player/InventoryPlayer;
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.getItemStack ()Lnet/minecraft/item/ItemStack;
     INVOKEVIRTUAL net/minecraft/client/multiplayer/PlayerControllerMP.sendPacketDropItem (Lnet/minecraft/item/ItemStack;)V
-   L41
-    LINENUMBER 146 L41
+   L40
+    LINENUMBER 146 L40
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
@@ -406,24 +405,24 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     CHECKCAST net/minecraft/item/ItemStack
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.setItemStack (Lnet/minecraft/item/ItemStack;)V
     GOTO L11
-   L38
-    LINENUMBER 150 L38
+   L37
+    LINENUMBER 150 L37
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] []
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
     GETFIELD net/minecraft/client/entity/EntityClientPlayerMP.inventoryContainer : Lnet/minecraft/inventory/Container;
     ALOAD 1
-    IFNONNULL L42
+    IFNONNULL L41
     ILOAD 2
-    GOTO L43
-   L42
+    GOTO L42
+   L41
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] [net/minecraft/inventory/Container]
     ALOAD 1
     CHECKCAST net/minecraft/client/gui/inventory/GuiContainerCreative$CreativeSlot
     INVOKESTATIC net/minecraft/client/gui/inventory/GuiContainerCreative$CreativeSlot.access$000 (Lnet/minecraft/client/gui/inventory/GuiContainerCreative$CreativeSlot;)Lnet/minecraft/inventory/Slot;
     GETFIELD net/minecraft/inventory/Slot.slotNumber : I
-   L43
+   L42
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] [net/minecraft/inventory/Container I]
     ILOAD 3
     ILOAD 4
@@ -432,68 +431,68 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
     INVOKEVIRTUAL net/minecraft/inventory/Container.slotClick (IIILnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;
     POP
-   L44
-    LINENUMBER 151 L44
+   L43
+    LINENUMBER 151 L43
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
     GETFIELD net/minecraft/client/entity/EntityClientPlayerMP.inventoryContainer : Lnet/minecraft/inventory/Container;
     INVOKEVIRTUAL net/minecraft/inventory/Container.detectAndSendChanges ()V
     GOTO L11
-   L28
-    LINENUMBER 154 L28
+   L27
+    LINENUMBER 154 L27
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] []
     ILOAD 4
     ICONST_5
-    IF_ICMPEQ L45
+    IF_ICMPEQ L44
     ALOAD 1
     GETFIELD net/minecraft/inventory/Slot.inventory : Lnet/minecraft/inventory/IInventory;
     GETSTATIC net/minecraft/client/gui/inventory/GuiContainerCreative.field_147060_v : Lnet/minecraft/inventory/InventoryBasic;
-    IF_ACMPNE L45
-   L46
-    LINENUMBER 156 L46
+    IF_ACMPNE L44
+   L45
+    LINENUMBER 156 L45
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
     GETFIELD net/minecraft/client/entity/EntityClientPlayerMP.inventory : Lnet/minecraft/entity/player/InventoryPlayer;
     ASTORE 6
-   L47
-    LINENUMBER 157 L47
+   L46
+    LINENUMBER 157 L46
     ALOAD 6
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.getItemStack ()Lnet/minecraft/item/ItemStack;
     ASTORE 7
-   L48
-    LINENUMBER 158 L48
+   L47
+    LINENUMBER 158 L47
     ALOAD 1
     INVOKEVIRTUAL net/minecraft/inventory/Slot.getStack ()Lnet/minecraft/item/ItemStack;
     ASTORE 10
-   L49
-    LINENUMBER 161 L49
+   L48
+    LINENUMBER 161 L48
     ILOAD 4
     ICONST_2
-    IF_ICMPNE L50
-   L51
-    LINENUMBER 163 L51
+    IF_ICMPNE L49
+   L50
+    LINENUMBER 163 L50
     ALOAD 10
-    IFNULL L52
+    IFNULL L51
     ILOAD 3
-    IFLT L52
+    IFLT L51
     ILOAD 3
     BIPUSH 9
-    IF_ICMPGE L52
-   L53
-    LINENUMBER 165 L53
+    IF_ICMPGE L51
+   L52
+    LINENUMBER 165 L52
     ALOAD 10
     INVOKEVIRTUAL net/minecraft/item/ItemStack.copy ()Lnet/minecraft/item/ItemStack;
     ASTORE 11
-   L54
-    LINENUMBER 166 L54
+   L53
+    LINENUMBER 166 L53
     ALOAD 11
     ALOAD 11
     INVOKEVIRTUAL net/minecraft/item/ItemStack.getMaxStackSize ()I
     PUTFIELD net/minecraft/item/ItemStack.stackSize : I
-   L55
-    LINENUMBER 167 L55
+   L54
+    LINENUMBER 167 L54
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
@@ -501,83 +500,83 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     ILOAD 3
     ALOAD 11
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V
-   L56
-    LINENUMBER 168 L56
+   L55
+    LINENUMBER 168 L55
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
     GETFIELD net/minecraft/client/entity/EntityClientPlayerMP.inventoryContainer : Lnet/minecraft/inventory/Container;
     INVOKEVIRTUAL net/minecraft/inventory/Container.detectAndSendChanges ()V
-   L52
-    LINENUMBER 171 L52
+   L51
+    LINENUMBER 171 L51
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     RETURN
-   L50
-    LINENUMBER 174 L50
+   L49
+    LINENUMBER 174 L49
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     ILOAD 4
     ICONST_3
-    IF_ICMPNE L57
-   L58
-    LINENUMBER 176 L58
+    IF_ICMPNE L56
+   L57
+    LINENUMBER 176 L57
     ALOAD 6
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.getItemStack ()Lnet/minecraft/item/ItemStack;
-    IFNONNULL L59
+    IFNONNULL L58
     ALOAD 1
     INVOKEVIRTUAL net/minecraft/inventory/Slot.getHasStack ()Z
-    IFEQ L59
-   L60
-    LINENUMBER 178 L60
+    IFEQ L58
+   L59
+    LINENUMBER 178 L59
     ALOAD 1
     INVOKEVIRTUAL net/minecraft/inventory/Slot.getStack ()Lnet/minecraft/item/ItemStack;
     INVOKEVIRTUAL net/minecraft/item/ItemStack.copy ()Lnet/minecraft/item/ItemStack;
     ASTORE 11
-   L61
-    LINENUMBER 179 L61
+   L60
+    LINENUMBER 179 L60
     ALOAD 11
     ALOAD 11
     INVOKEVIRTUAL net/minecraft/item/ItemStack.getMaxStackSize ()I
     PUTFIELD net/minecraft/item/ItemStack.stackSize : I
-   L62
-    LINENUMBER 180 L62
+   L61
+    LINENUMBER 180 L61
     ALOAD 6
     ALOAD 11
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.setItemStack (Lnet/minecraft/item/ItemStack;)V
-   L59
-    LINENUMBER 183 L59
+   L58
+    LINENUMBER 183 L58
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     RETURN
-   L57
-    LINENUMBER 186 L57
+   L56
+    LINENUMBER 186 L56
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     ILOAD 4
     ICONST_4
-    IF_ICMPNE L63
-   L64
-    LINENUMBER 188 L64
+    IF_ICMPNE L62
+   L63
+    LINENUMBER 188 L63
     ALOAD 10
-    IFNULL L65
-   L66
-    LINENUMBER 190 L66
+    IFNULL L64
+   L65
+    LINENUMBER 190 L65
     ALOAD 10
     INVOKEVIRTUAL net/minecraft/item/ItemStack.copy ()Lnet/minecraft/item/ItemStack;
     ASTORE 11
-   L67
-    LINENUMBER 191 L67
+   L66
+    LINENUMBER 191 L66
     ALOAD 11
     ILOAD 3
-    IFNE L68
+    IFNE L67
     ICONST_1
-    GOTO L69
-   L68
+    GOTO L68
+   L67
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack net/minecraft/item/ItemStack] [net/minecraft/item/ItemStack]
     ALOAD 11
     INVOKEVIRTUAL net/minecraft/item/ItemStack.getMaxStackSize ()I
-   L69
+   L68
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack net/minecraft/item/ItemStack] [net/minecraft/item/ItemStack I]
     PUTFIELD net/minecraft/item/ItemStack.stackSize : I
-   L70
-    LINENUMBER 192 L70
+   L69
+    LINENUMBER 192 L69
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
@@ -585,80 +584,80 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     ICONST_1
     INVOKEVIRTUAL net/minecraft/client/entity/EntityClientPlayerMP.dropPlayerItemWithRandomChoice (Lnet/minecraft/item/ItemStack;Z)Lnet/minecraft/entity/item/EntityItem;
     POP
-   L71
-    LINENUMBER 193 L71
+   L70
+    LINENUMBER 193 L70
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.playerController : Lnet/minecraft/client/multiplayer/PlayerControllerMP;
     ALOAD 11
     INVOKEVIRTUAL net/minecraft/client/multiplayer/PlayerControllerMP.sendPacketDropItem (Lnet/minecraft/item/ItemStack;)V
-   L65
-    LINENUMBER 196 L65
+   L64
+    LINENUMBER 196 L64
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     RETURN
-   L63
-    LINENUMBER 199 L63
+   L62
+    LINENUMBER 199 L62
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     ALOAD 7
-    IFNULL L72
+    IFNULL L71
     ALOAD 10
-    IFNULL L72
+    IFNULL L71
     ALOAD 7
     ALOAD 10
     INVOKEVIRTUAL net/minecraft/item/ItemStack.isItemEqual (Lnet/minecraft/item/ItemStack;)Z
-    IFEQ L72
+    IFEQ L71
     ALOAD 7
     ALOAD 10
     INVOKESTATIC net/minecraft/item/ItemStack.areItemStackTagsEqual (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z
-    IFEQ L72
-   L73
-    LINENUMBER 201 L73
+    IFEQ L71
+   L72
+    LINENUMBER 201 L72
     ILOAD 3
-    IFNE L74
-   L75
-    LINENUMBER 203 L75
+    IFNE L73
+   L74
+    LINENUMBER 203 L74
     ILOAD 5
-    IFEQ L76
-   L77
-    LINENUMBER 205 L77
+    IFEQ L75
+   L76
+    LINENUMBER 205 L76
     ALOAD 7
     ALOAD 7
     INVOKEVIRTUAL net/minecraft/item/ItemStack.getMaxStackSize ()I
     PUTFIELD net/minecraft/item/ItemStack.stackSize : I
-    GOTO L78
-   L76
-    LINENUMBER 207 L76
+    GOTO L77
+   L75
+    LINENUMBER 207 L75
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     ALOAD 7
     GETFIELD net/minecraft/item/ItemStack.stackSize : I
     ALOAD 7
     INVOKEVIRTUAL net/minecraft/item/ItemStack.getMaxStackSize ()I
-    IF_ICMPGE L78
-   L79
-    LINENUMBER 209 L79
+    IF_ICMPGE L77
+   L78
+    LINENUMBER 209 L78
     ALOAD 7
     DUP
     GETFIELD net/minecraft/item/ItemStack.stackSize : I
     ICONST_1
     IADD
     PUTFIELD net/minecraft/item/ItemStack.stackSize : I
-    GOTO L78
-   L74
-    LINENUMBER 212 L74
+    GOTO L77
+   L73
+    LINENUMBER 212 L73
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     ALOAD 7
     GETFIELD net/minecraft/item/ItemStack.stackSize : I
     ICONST_1
-    IF_ICMPGT L80
-   L81
-    LINENUMBER 214 L81
+    IF_ICMPGT L79
+   L80
+    LINENUMBER 214 L80
     ALOAD 6
     ACONST_NULL
     CHECKCAST net/minecraft/item/ItemStack
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.setItemStack (Lnet/minecraft/item/ItemStack;)V
-    GOTO L78
-   L80
-    LINENUMBER 218 L80
+    GOTO L77
+   L79
+    LINENUMBER 218 L79
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     ALOAD 7
     DUP
@@ -666,61 +665,61 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     ICONST_1
     ISUB
     PUTFIELD net/minecraft/item/ItemStack.stackSize : I
-    GOTO L78
-   L72
-    LINENUMBER 221 L72
+    GOTO L77
+   L71
+    LINENUMBER 221 L71
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     ALOAD 10
-    IFNULL L82
+    IFNULL L81
     ALOAD 7
-    IFNONNULL L82
-   L83
-    LINENUMBER 223 L83
+    IFNONNULL L81
+   L82
+    LINENUMBER 223 L82
     ALOAD 6
     ALOAD 10
     INVOKESTATIC net/minecraft/item/ItemStack.copyItemStack (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.setItemStack (Lnet/minecraft/item/ItemStack;)V
-   L84
-    LINENUMBER 224 L84
+   L83
+    LINENUMBER 224 L83
     ALOAD 6
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.getItemStack ()Lnet/minecraft/item/ItemStack;
     ASTORE 7
-   L85
-    LINENUMBER 226 L85
+   L84
+    LINENUMBER 226 L84
     ILOAD 5
-    IFEQ L78
-   L86
-    LINENUMBER 228 L86
+    IFEQ L77
+   L85
+    LINENUMBER 228 L85
     ALOAD 7
     ALOAD 7
     INVOKEVIRTUAL net/minecraft/item/ItemStack.getMaxStackSize ()I
     PUTFIELD net/minecraft/item/ItemStack.stackSize : I
-    GOTO L78
-   L82
-    LINENUMBER 233 L82
+    GOTO L77
+   L81
+    LINENUMBER 233 L81
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     ALOAD 6
     ACONST_NULL
     CHECKCAST net/minecraft/item/ItemStack
     INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.setItemStack (Lnet/minecraft/item/ItemStack;)V
-   L78
-    LINENUMBER 235 L78
+   L77
+    LINENUMBER 235 L77
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack T T net/minecraft/item/ItemStack] []
     GOTO L11
-   L45
-    LINENUMBER 238 L45
+   L44
+    LINENUMBER 238 L44
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] []
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.inventorySlots : Lnet/minecraft/inventory/Container;
     ALOAD 1
-    IFNONNULL L87
+    IFNONNULL L86
     ILOAD 2
-    GOTO L88
-   L87
+    GOTO L87
+   L86
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] [net/minecraft/inventory/Container]
     ALOAD 1
     GETFIELD net/minecraft/inventory/Slot.slotNumber : I
-   L88
+   L87
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] [net/minecraft/inventory/Container I]
     ILOAD 3
     ILOAD 4
@@ -729,23 +728,23 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
     INVOKEVIRTUAL net/minecraft/inventory/Container.slotClick (IIILnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;
     POP
-   L89
-    LINENUMBER 240 L89
+   L88
+    LINENUMBER 240 L88
     ILOAD 3
     INVOKESTATIC net/minecraft/inventory/Container.func_94532_c (I)I
     ICONST_2
-    IF_ICMPNE L90
-   L91
-    LINENUMBER 242 L91
+    IF_ICMPNE L89
+   L90
+    LINENUMBER 242 L90
     ICONST_0
     ISTORE 8
-   L92
+   L91
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I T T I] []
     ILOAD 8
     BIPUSH 9
     IF_ICMPGE L11
-   L93
-    LINENUMBER 244 L93
+   L92
+    LINENUMBER 244 L92
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.playerController : Lnet/minecraft/client/multiplayer/PlayerControllerMP;
@@ -760,17 +759,17 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     ILOAD 8
     IADD
     INVOKEVIRTUAL net/minecraft/client/multiplayer/PlayerControllerMP.sendSlotPacket (Lnet/minecraft/item/ItemStack;I)V
-   L94
-    LINENUMBER 242 L94
+   L93
+    LINENUMBER 242 L93
     IINC 8 1
-    GOTO L92
-   L90
-    LINENUMBER 247 L90
+    GOTO L91
+   L89
+    LINENUMBER 247 L89
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] []
     ALOAD 1
     IFNULL L11
-   L95
-    LINENUMBER 249 L95
+   L94
+    LINENUMBER 249 L94
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.inventorySlots : Lnet/minecraft/inventory/Container;
     ALOAD 1
@@ -778,8 +777,8 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     INVOKEVIRTUAL net/minecraft/inventory/Container.getSlot (I)Lnet/minecraft/inventory/Slot;
     INVOKEVIRTUAL net/minecraft/inventory/Slot.getStack ()Lnet/minecraft/item/ItemStack;
     ASTORE 9
-   L96
-    LINENUMBER 250 L96
+   L95
+    LINENUMBER 250 L95
     ALOAD 0
     GETFIELD net/minecraft/client/gui/inventory/GuiContainerCreative.mc : Lnet/minecraft/client/Minecraft;
     GETFIELD net/minecraft/client/Minecraft.playerController : Lnet/minecraft/client/multiplayer/PlayerControllerMP;
@@ -800,25 +799,25 @@ public class net/minecraft/client/gui/inventory/GuiContainerCreative extends net
     LINENUMBER 255 L11
    FRAME FULL [net/minecraft/client/gui/inventory/GuiContainerCreative net/minecraft/inventory/Slot I I I I] []
     RETURN
-   L97
-    LOCALVARIABLE itemstack1 Lnet/minecraft/item/ItemStack; L18 L22 7
+   L96
+    LOCALVARIABLE itemstack1 Lnet/minecraft/item/ItemStack; L18 L8 7
     LOCALVARIABLE inventoryplayer Lnet/minecraft/entity/player/InventoryPlayer; L10 L8 6
-    LOCALVARIABLE l I L25 L23 8
-    LOCALVARIABLE itemstack Lnet/minecraft/item/ItemStack; L36 L32 9
-    LOCALVARIABLE itemstack3 Lnet/minecraft/item/ItemStack; L54 L52 11
-    LOCALVARIABLE itemstack3 Lnet/minecraft/item/ItemStack; L61 L59 11
-    LOCALVARIABLE itemstack3 Lnet/minecraft/item/ItemStack; L67 L65 11
-    LOCALVARIABLE itemstack2 Lnet/minecraft/item/ItemStack; L49 L78 10
-    LOCALVARIABLE itemstack1 Lnet/minecraft/item/ItemStack; L48 L45 7
-    LOCALVARIABLE inventoryplayer Lnet/minecraft/entity/player/InventoryPlayer; L47 L45 6
-    LOCALVARIABLE l I L92 L90 8
-    LOCALVARIABLE itemstack Lnet/minecraft/item/ItemStack; L96 L11 9
-    LOCALVARIABLE this Lnet/minecraft/client/gui/inventory/GuiContainerCreative; L0 L97 0
-    LOCALVARIABLE p_146984_1_ Lnet/minecraft/inventory/Slot; L0 L97 1
-    LOCALVARIABLE p_146984_2_ I L0 L97 2
-    LOCALVARIABLE p_146984_3_ I L0 L97 3
-    LOCALVARIABLE p_146984_4_ I L0 L97 4
-    LOCALVARIABLE flag Z L4 L97 5
+    LOCALVARIABLE l I L24 L22 8
+    LOCALVARIABLE itemstack Lnet/minecraft/item/ItemStack; L35 L31 9
+    LOCALVARIABLE itemstack3 Lnet/minecraft/item/ItemStack; L53 L51 11
+    LOCALVARIABLE itemstack3 Lnet/minecraft/item/ItemStack; L60 L58 11
+    LOCALVARIABLE itemstack3 Lnet/minecraft/item/ItemStack; L66 L64 11
+    LOCALVARIABLE itemstack2 Lnet/minecraft/item/ItemStack; L48 L77 10
+    LOCALVARIABLE itemstack1 Lnet/minecraft/item/ItemStack; L47 L44 7
+    LOCALVARIABLE inventoryplayer Lnet/minecraft/entity/player/InventoryPlayer; L46 L44 6
+    LOCALVARIABLE l I L91 L89 8
+    LOCALVARIABLE itemstack Lnet/minecraft/item/ItemStack; L95 L11 9
+    LOCALVARIABLE this Lnet/minecraft/client/gui/inventory/GuiContainerCreative; L0 L96 0
+    LOCALVARIABLE p_146984_1_ Lnet/minecraft/inventory/Slot; L0 L96 1
+    LOCALVARIABLE p_146984_2_ I L0 L96 2
+    LOCALVARIABLE p_146984_3_ I L0 L96 3
+    LOCALVARIABLE p_146984_4_ I L0 L96 4
+    LOCALVARIABLE flag Z L4 L96 5
     MAXSTACK = 5
     MAXLOCALS = 12
 

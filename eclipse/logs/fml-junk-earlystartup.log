@@ -858,3 +858,457 @@
 [19:55:19] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [19:55:19] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [19:55:19] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[09:19:40] [main/INFO] [GradleStart]: username: ItakPC
+[09:19:40] [main/INFO] [GradleStart]: password: MCPlayer00
+[09:19:40] [main/INFO] [GradleStart]: Extra: []
+[09:19:40] [main/INFO] [GradleStart]: Password found, attempting login
+[09:19:42] [main/INFO] [GradleStart]: Login Succesful!
+[09:19:42] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 450713a8a8284b8eb32da7b24c7b12ee, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[09:19:42] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:19:42] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:19:42] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:54:02] [main/INFO] [GradleStart]: username: ItakPC
+[20:54:02] [main/INFO] [GradleStart]: password: MCPlayer00
+[20:54:02] [main/INFO] [GradleStart]: Extra: []
+[20:54:02] [main/INFO] [GradleStart]: Password found, attempting login
+[20:54:03] [main/INFO] [GradleStart]: Login Succesful!
+[20:54:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 121293068652414db14d31d273199594, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[20:54:03] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:54:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:54:03] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:11:38] [main/INFO] [GradleStart]: username: ItakPC
+[21:11:38] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:11:38] [main/INFO] [GradleStart]: Extra: []
+[21:11:38] [main/INFO] [GradleStart]: Password found, attempting login
+[21:11:39] [main/INFO] [GradleStart]: Login Succesful!
+[21:11:39] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 21510461ecd54b7492cf4a34b5d9d927, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:11:39] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:11:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:11:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:30:00] [main/INFO] [GradleStart]: username: ItakPC
+[21:30:00] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:30:00] [main/INFO] [GradleStart]: Extra: []
+[21:30:00] [main/INFO] [GradleStart]: Password found, attempting login
+[21:30:01] [main/INFO] [GradleStart]: Login Succesful!
+[21:30:01] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, c5ed060f0523496dbd8ccb94fa97f7bc, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:30:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:30:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:30:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:34:57] [main/INFO] [GradleStart]: username: ItakPC
+[21:34:57] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:34:57] [main/INFO] [GradleStart]: Extra: []
+[21:34:57] [main/INFO] [GradleStart]: Password found, attempting login
+[21:34:58] [main/INFO] [GradleStart]: Login Succesful!
+[21:34:58] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 7db355566c5646769e768f8808b356ed, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:34:58] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:34:58] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:34:58] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:45:19] [main/INFO] [GradleStart]: username: ItakPC
+[21:45:19] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:45:19] [main/INFO] [GradleStart]: Extra: []
+[21:45:19] [main/INFO] [GradleStart]: Password found, attempting login
+[21:45:20] [main/INFO] [GradleStart]: Login Succesful!
+[21:45:20] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 5fd07f36d57e424ca6ac9ad03566f63c, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:45:20] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:45:20] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:45:20] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:48:30] [main/INFO] [GradleStart]: username: ItakPC
+[21:48:30] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:48:30] [main/INFO] [GradleStart]: Extra: []
+[21:48:30] [main/INFO] [GradleStart]: Password found, attempting login
+[21:48:31] [main/INFO] [GradleStart]: Login Succesful!
+[21:48:31] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, ef092c941288475fa15940b1f6c71393, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:48:31] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:48:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:48:31] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:52:10] [main/INFO] [GradleStart]: username: ItakPC
+[21:52:10] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:52:10] [main/INFO] [GradleStart]: Extra: []
+[21:52:10] [main/INFO] [GradleStart]: Password found, attempting login
+[21:52:11] [main/INFO] [GradleStart]: Login Succesful!
+[21:52:11] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 488556bd457e4893b0c88c838f1c7af6, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:52:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:52:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:52:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:56:18] [main/INFO] [GradleStart]: username: ItakPC
+[21:56:18] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:56:18] [main/INFO] [GradleStart]: Extra: []
+[21:56:18] [main/INFO] [GradleStart]: Password found, attempting login
+[21:56:19] [main/INFO] [GradleStart]: Login Succesful!
+[21:56:19] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 6b30f20f699e4b28a3843fb67da14757, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:56:19] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:56:19] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:56:19] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[08:55:49] [main/INFO] [GradleStart]: username: ItakPC
+[08:55:49] [main/INFO] [GradleStart]: password: MCPlayer00
+[08:55:49] [main/INFO] [GradleStart]: Extra: []
+[08:55:49] [main/INFO] [GradleStart]: Password found, attempting login
+[08:55:50] [main/INFO] [GradleStart]: Login Succesful!
+[08:55:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, dd9474a928a342cfb4a802bd43ae9235, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[08:55:50] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[08:55:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[08:55:50] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[09:04:36] [main/INFO] [GradleStart]: username: ItakPC
+[09:04:36] [main/INFO] [GradleStart]: password: MCPlayer00
+[09:04:36] [main/INFO] [GradleStart]: Extra: []
+[09:04:36] [main/INFO] [GradleStart]: Password found, attempting login
+[09:04:38] [main/INFO] [GradleStart]: Login Succesful!
+[09:04:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 3cc5686762eb4ba38e75cc9d514957fd, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[09:04:38] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:04:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:04:38] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[09:32:16] [main/INFO] [GradleStart]: username: ItakPC
+[09:32:16] [main/INFO] [GradleStart]: password: MCPlayer00
+[09:32:16] [main/INFO] [GradleStart]: Extra: []
+[09:32:16] [main/INFO] [GradleStart]: Password found, attempting login
+[09:32:18] [main/INFO] [GradleStart]: Login Succesful!
+[09:32:18] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, df30724effb64ab4a744d2bd75e14c9b, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[09:32:18] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:32:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:32:18] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[09:38:09] [main/INFO] [GradleStart]: username: ItakPC
+[09:38:09] [main/INFO] [GradleStart]: password: MCPlayer00
+[09:38:09] [main/INFO] [GradleStart]: Extra: []
+[09:38:09] [main/INFO] [GradleStart]: Password found, attempting login
+[09:38:11] [main/INFO] [GradleStart]: Login Succesful!
+[09:38:11] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 7cfdcf263a7c4c2f9c05566362e59f79, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[09:38:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:38:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:38:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:05:54] [main/INFO] [GradleStart]: username: ItakPC
+[10:05:54] [main/INFO] [GradleStart]: password: MCPlayer00
+[10:05:54] [main/INFO] [GradleStart]: Extra: []
+[10:05:54] [main/INFO] [GradleStart]: Password found, attempting login
+[10:05:55] [main/INFO] [GradleStart]: Login Succesful!
+[10:05:55] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 321ce50417a142d39201ae48f9fb56f1, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:05:55] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:05:55] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:05:55] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:31:47] [main/INFO] [GradleStart]: username: ItakPC
+[10:31:47] [main/INFO] [GradleStart]: password: MCPlayer00
+[10:31:47] [main/INFO] [GradleStart]: Extra: []
+[10:31:47] [main/INFO] [GradleStart]: Password found, attempting login
+[10:31:48] [main/INFO] [GradleStart]: Login Succesful!
+[10:31:49] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 2cfeb50ddb0d45a7892906c37b696abb, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:31:49] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:31:49] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:31:49] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:32:31] [main/INFO] [GradleStart]: username: ItakPC
+[10:32:31] [main/INFO] [GradleStart]: password: MCPlayer00
+[10:32:31] [main/INFO] [GradleStart]: Extra: []
+[10:32:31] [main/INFO] [GradleStart]: Password found, attempting login
+[10:32:33] [main/INFO] [GradleStart]: Login Succesful!
+[10:32:33] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, f6908ca417d1499dab137962ae43e117, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:32:33] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:32:33] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:32:33] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:30:11] [main/INFO] [GradleStart]: username: ItakPC
+[20:30:11] [main/INFO] [GradleStart]: password: MCPlayer00
+[20:30:11] [main/INFO] [GradleStart]: Extra: []
+[20:30:11] [main/INFO] [GradleStart]: Password found, attempting login
+[20:30:12] [main/INFO] [GradleStart]: Login Succesful!
+[20:30:12] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, d3f608b702d94b44942c626b5c82d0ce, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[20:30:12] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:30:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:30:12] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:32:58] [main/INFO] [GradleStart]: username: ItakPC
+[20:32:58] [main/INFO] [GradleStart]: password: MCPlayer00
+[20:32:58] [main/INFO] [GradleStart]: Extra: []
+[20:32:58] [main/INFO] [GradleStart]: Password found, attempting login
+[20:32:59] [main/INFO] [GradleStart]: Login Succesful!
+[20:32:59] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, b68861a77e6d4213917607023febfd0a, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[20:33:00] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:33:00] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:33:00] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:59:02] [main/INFO] [GradleStart]: username: ItakPC
+[20:59:02] [main/INFO] [GradleStart]: password: MCPlayer00
+[20:59:02] [main/INFO] [GradleStart]: Extra: []
+[20:59:02] [main/INFO] [GradleStart]: Password found, attempting login
+[20:59:03] [main/INFO] [GradleStart]: Login Succesful!
+[20:59:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 8fa8c853749842ecaac91da6a376ee20, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[20:59:03] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:59:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:59:03] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:01:37] [main/INFO] [GradleStart]: username: ItakPC
+[21:01:37] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:01:37] [main/INFO] [GradleStart]: Extra: []
+[21:01:37] [main/INFO] [GradleStart]: Password found, attempting login
+[21:01:38] [main/INFO] [GradleStart]: Login Succesful!
+[21:01:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, d1a8f090ada04a14a18ce09d1123e7b6, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:01:39] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:01:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:01:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:05:16] [main/INFO] [GradleStart]: username: ItakPC
+[21:05:16] [main/INFO] [GradleStart]: password: MCPlayer00
+[21:05:16] [main/INFO] [GradleStart]: Extra: []
+[21:05:16] [main/INFO] [GradleStart]: Password found, attempting login
+[21:05:17] [main/INFO] [GradleStart]: Login Succesful!
+[21:05:17] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, ff0506fa4e3f4e6eaf991a43641cbb69, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:05:17] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:05:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:05:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[08:39:01] [main/INFO] [GradleStart]: username: ItakPC
+[08:39:01] [main/INFO] [GradleStart]: password: MCPlayer00
+[08:39:01] [main/INFO] [GradleStart]: Extra: []
+[08:39:01] [main/INFO] [GradleStart]: Password found, attempting login
+[08:39:03] [main/INFO] [GradleStart]: Login Succesful!
+[08:39:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 2884763b52224f938e559d771c77e6df, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[08:39:03] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[08:39:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[08:39:03] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[08:49:39] [main/INFO] [GradleStart]: username: ItakPC
+[08:49:39] [main/INFO] [GradleStart]: password: MCPlayer00
+[08:49:39] [main/INFO] [GradleStart]: Extra: []
+[08:49:39] [main/INFO] [GradleStart]: Password found, attempting login
+[08:49:41] [main/INFO] [GradleStart]: Login Succesful!
+[08:49:41] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, e67999d769fd4d9cbe4a02406be6b0e0, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[08:49:41] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[08:49:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[08:49:41] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[08:56:03] [main/INFO] [GradleStart]: username: ItakPC
+[08:56:03] [main/INFO] [GradleStart]: password: MCPlayer00
+[08:56:03] [main/INFO] [GradleStart]: Extra: []
+[08:56:03] [main/INFO] [GradleStart]: Password found, attempting login
+[08:56:04] [main/INFO] [GradleStart]: Login Succesful!
+[08:56:05] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 635792e592534e73a55c5586d8ef5be0, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[08:56:05] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[08:56:05] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[08:56:05] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:41:16] [main/INFO] [GradleStart]: username: ItakPC
+[17:41:16] [main/INFO] [GradleStart]: password: MCPlayer00
+[17:41:16] [main/INFO] [GradleStart]: Extra: []
+[17:41:16] [main/INFO] [GradleStart]: Password found, attempting login
+[17:41:17] [main/INFO] [GradleStart]: Login Succesful!
+[17:41:17] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 6c9928b7715048da98e0cce160cffc60, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[17:41:17] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:41:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:41:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:51:07] [main/INFO] [GradleStart]: username: ItakPC
+[17:51:07] [main/INFO] [GradleStart]: password: MCPlayer00
+[17:51:07] [main/INFO] [GradleStart]: Extra: []
+[17:51:07] [main/INFO] [GradleStart]: Password found, attempting login
+[17:51:09] [main/INFO] [GradleStart]: Login Succesful!
+[17:51:09] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 9e3b02ff4b344cd08709a5ca28bc2e7a, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[17:51:09] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:51:09] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:51:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:01:14] [main/INFO] [GradleStart]: username: ItakPC
+[18:01:14] [main/INFO] [GradleStart]: password: MCPlayer00
+[18:01:14] [main/INFO] [GradleStart]: Extra: []
+[18:01:14] [main/INFO] [GradleStart]: Password found, attempting login
+[18:01:15] [main/INFO] [GradleStart]: Login Succesful!
+[18:01:15] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ItakPC, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, 83148e600ac44e46a952f5a0e6a8f6b4, --assetIndex, 1.7.10, --uuid, 6fb84654b8f44c4286370f1c825f6c93, --assetsDir, C:/Users/spravce/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[18:01:15] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:01:15] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:01:15] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:17:01] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[18:17:01] [main/INFO] [GradleStart]: Extra: []
+[18:17:12] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[18:17:12] [main/INFO] [GradleStart]: Extra: []
+[18:17:55] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[18:17:55] [main/INFO] [GradleStart]: Extra: []
+[18:18:39] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[18:18:39] [main/INFO] [GradleStart]: Extra: []
+[18:22:32] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[18:22:32] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[18:22:32] [main/INFO] [GradleStart]: Extra: []
+[18:22:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[18:22:32] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:22:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:22:32] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:41:35] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[18:41:35] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[18:41:35] [main/INFO] [GradleStart]: Extra: []
+[18:41:35] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[18:41:35] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:41:35] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:41:35] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:00:56] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:00:56] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:00:56] [main/INFO] [GradleStart]: Extra: []
+[19:00:56] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:00:56] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:00:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:00:56] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:03:03] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:03:03] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:03:03] [main/INFO] [GradleStart]: Extra: []
+[19:03:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:03:04] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:03:04] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:03:04] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:08:10] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:08:10] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:08:10] [main/INFO] [GradleStart]: Extra: []
+[19:08:10] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:08:10] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:08:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:08:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:10:42] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:10:42] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:10:42] [main/INFO] [GradleStart]: Extra: []
+[19:10:42] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:10:42] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:10:42] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:10:42] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:12:26] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:12:26] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:12:26] [main/INFO] [GradleStart]: Extra: []
+[19:12:26] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:12:26] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:12:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:12:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:13:39] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:13:39] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:13:39] [main/INFO] [GradleStart]: Extra: []
+[19:13:40] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:13:40] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:13:40] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:13:40] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:15:13] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:15:13] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:15:13] [main/INFO] [GradleStart]: Extra: []
+[19:15:13] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:15:13] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:15:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:15:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:18:08] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:18:08] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:18:08] [main/INFO] [GradleStart]: Extra: []
+[19:18:08] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:18:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:18:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:18:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:30:56] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:30:56] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:30:56] [main/INFO] [GradleStart]: Extra: []
+[19:30:57] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:30:57] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:30:57] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:30:57] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:40:18] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:40:18] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:40:18] [main/INFO] [GradleStart]: Extra: []
+[19:40:18] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:40:18] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:40:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:40:18] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:56:39] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:56:39] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[19:56:39] [main/INFO] [GradleStart]: Extra: []
+[19:56:39] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[19:56:39] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:56:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:56:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:34:11] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:34:11] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[21:34:11] [main/INFO] [GradleStart]: Extra: []
+[21:34:11] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[21:34:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:34:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:34:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:13:33] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:13:33] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:13:33] [main/INFO] [GradleStart]: Extra: []
+[22:13:33] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:13:33] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:13:33] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:13:33] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:16:03] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:16:03] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:16:03] [main/INFO] [GradleStart]: Extra: []
+[22:16:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:16:03] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:16:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:16:03] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:22:50] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:22:50] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:22:50] [main/INFO] [GradleStart]: Extra: []
+[22:22:51] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:22:51] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:22:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:22:51] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:27:35] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:27:35] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:27:35] [main/INFO] [GradleStart]: Extra: []
+[22:27:35] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:27:35] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:27:35] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:27:35] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:29:54] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:29:54] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:29:54] [main/INFO] [GradleStart]: Extra: []
+[22:29:54] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:29:54] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:29:54] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:29:54] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:32:27] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:32:27] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:32:27] [main/INFO] [GradleStart]: Extra: []
+[22:32:27] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:32:27] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:32:27] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:32:27] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:35:11] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:35:11] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:35:11] [main/INFO] [GradleStart]: Extra: []
+[22:35:11] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:35:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:35:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:35:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:37:24] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:37:24] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:37:24] [main/INFO] [GradleStart]: Extra: []
+[22:37:24] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:37:24] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:37:24] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:37:24] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:40:09] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:40:09] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[22:40:09] [main/INFO] [GradleStart]: Extra: []
+[22:40:09] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[22:40:09] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:40:09] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:40:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:31:10] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[10:31:10] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[10:31:10] [main/INFO] [GradleStart]: Extra: []
+[10:31:10] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[10:31:10] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:31:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:31:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:34:14] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[10:34:14] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[10:34:14] [main/INFO] [GradleStart]: Extra: []
+[10:34:14] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[10:34:14] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:34:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:34:14] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:37:51] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[10:37:51] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[10:37:51] [main/INFO] [GradleStart]: Extra: []
+[10:37:51] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[10:37:51] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:37:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:37:51] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:39:22] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[10:39:22] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[10:39:22] [main/INFO] [GradleStart]: Extra: []
+[10:39:22] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[10:39:22] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:39:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:39:22] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:52:52] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[10:52:52] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[10:52:52] [main/INFO] [GradleStart]: Extra: []
+[10:52:52] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[10:52:52] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:52:52] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:52:52] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[11:08:32] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[11:08:32] [main/INFO] [GradleStart]: assetsDir: C:\Users\spravce\.gradle\caches\minecraft\assets
+[11:08:32] [main/INFO] [GradleStart]: Extra: []
+[11:08:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:\Users\spravce\.gradle\caches\minecraft\assets, --version, 1.7.10]
+[11:08:32] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[11:08:33] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[11:08:33] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker

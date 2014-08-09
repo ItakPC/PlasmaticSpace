@@ -4712,6 +4712,7 @@ public class net/minecraft/block/Block {
     RETURN
    L9
     LOCALVARIABLE item Lnet/minecraft/item/ItemStack; L6 L7 10
+    LOCALVARIABLE i$ Ljava/util/Iterator; L5 L1 9
     LOCALVARIABLE items Ljava/util/ArrayList; L3 L1 8
     // signature Ljava/util/ArrayList<Lnet/minecraft/item/ItemStack;>;
     // declaration: java.util.ArrayList<net.minecraft.item.ItemStack>
@@ -5989,6 +5990,7 @@ public class net/minecraft/block/Block {
     RETURN
    L18
     LOCALVARIABLE is Lnet/minecraft/item/ItemStack; L12 L13 10
+    LOCALVARIABLE i$ Ljava/util/Iterator; L10 L11 9
     LOCALVARIABLE items Ljava/util/ArrayList; L5 L11 7
     // signature Ljava/util/ArrayList<Lnet/minecraft/item/ItemStack;>;
     // declaration: java.util.ArrayList<net.minecraft.item.ItemStack>
@@ -8109,8 +8111,6 @@ public class net/minecraft/block/Block {
     IADD
     ILOAD 3
     ILOAD 4
-   L33
-    LINENUMBER 2246 L33
     INVOKEINTERFACE net/minecraft/world/IBlockAccess.getBlock (III)Lnet/minecraft/block/Block;
     INVOKEVIRTUAL net/minecraft/block/Block.getMaterial ()Lnet/minecraft/block/material/Material;
     GETSTATIC net/minecraft/block/material/Material.water : Lnet/minecraft/block/material/Material;
@@ -8121,8 +8121,6 @@ public class net/minecraft/block/Block {
     ILOAD 4
     ICONST_1
     ISUB
-   L34
-    LINENUMBER 2247 L34
     INVOKEINTERFACE net/minecraft/world/IBlockAccess.getBlock (III)Lnet/minecraft/block/Block;
     INVOKEVIRTUAL net/minecraft/block/Block.getMaterial ()Lnet/minecraft/block/material/Material;
     GETSTATIC net/minecraft/block/material/Material.water : Lnet/minecraft/block/material/Material;
@@ -8133,34 +8131,32 @@ public class net/minecraft/block/Block {
     ILOAD 4
     ICONST_1
     IADD
-   L35
-    LINENUMBER 2248 L35
     INVOKEINTERFACE net/minecraft/world/IBlockAccess.getBlock (III)Lnet/minecraft/block/Block;
     INVOKEVIRTUAL net/minecraft/block/Block.getMaterial ()Lnet/minecraft/block/material/Material;
     GETSTATIC net/minecraft/block/material/Material.water : Lnet/minecraft/block/material/Material;
-    IF_ACMPNE L36
+    IF_ACMPNE L33
    L32
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I] []
     ICONST_1
-    GOTO L37
-   L36
+    GOTO L34
+   L33
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I] []
     ICONST_0
-   L37
+   L34
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I] [I]
     ISTORE 10
-   L38
-    LINENUMBER 2249 L38
+   L35
+    LINENUMBER 2249 L35
     ILOAD 9
-    IFEQ L39
+    IFEQ L36
     ILOAD 10
-    IFEQ L39
+    IFEQ L36
     ICONST_1
-    GOTO L40
-   L39
+    GOTO L37
+   L36
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I I] []
     ICONST_0
-   L40
+   L37
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I I] [I]
     IRETURN
    L16
@@ -8168,18 +8164,18 @@ public class net/minecraft/block/Block {
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType] []
     ICONST_0
     IRETURN
-   L41
+   L38
     LOCALVARIABLE isBeach Z L31 L16 9
-    LOCALVARIABLE hasWater Z L38 L16 10
-    LOCALVARIABLE this Lnet/minecraft/block/Block; L0 L41 0
-    LOCALVARIABLE world Lnet/minecraft/world/IBlockAccess; L0 L41 1
-    LOCALVARIABLE x I L0 L41 2
-    LOCALVARIABLE y I L0 L41 3
-    LOCALVARIABLE z I L0 L41 4
-    LOCALVARIABLE direction Lnet/minecraftforge/common/util/ForgeDirection; L0 L41 5
-    LOCALVARIABLE plantable Lnet/minecraftforge/common/IPlantable; L0 L41 6
-    LOCALVARIABLE plant Lnet/minecraft/block/Block; L1 L41 7
-    LOCALVARIABLE plantType Lnet/minecraftforge/common/EnumPlantType; L2 L41 8
+    LOCALVARIABLE hasWater Z L35 L16 10
+    LOCALVARIABLE this Lnet/minecraft/block/Block; L0 L38 0
+    LOCALVARIABLE world Lnet/minecraft/world/IBlockAccess; L0 L38 1
+    LOCALVARIABLE x I L0 L38 2
+    LOCALVARIABLE y I L0 L38 3
+    LOCALVARIABLE z I L0 L38 4
+    LOCALVARIABLE direction Lnet/minecraftforge/common/util/ForgeDirection; L0 L38 5
+    LOCALVARIABLE plantable Lnet/minecraftforge/common/IPlantable; L0 L38 6
+    LOCALVARIABLE plant Lnet/minecraft/block/Block; L1 L38 7
+    LOCALVARIABLE plantType Lnet/minecraftforge/common/EnumPlantType; L2 L38 8
     MAXSTACK = 6
     MAXLOCALS = 11
 
