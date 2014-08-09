@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// Ooh. Shiny.
+
+Time: 8/8/14 10:41 PM
+Description: Ticking memory connection
+
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at net.minecraft.entity.player.InventoryPlayer.getStackInSlot(InventoryPlayer.java:648)
+	at net.minecraft.inventory.Slot.getStack(Slot.java:88)
+	at net.minecraft.inventory.Container.getInventory(Container.java:69)
+	at net.minecraft.inventory.Container.addCraftingToCrafters(Container.java:55)
+	at com.ItakPC.plasmaticspace.machine.solidFuelFurnace.ContainerSFFurnace.addCraftingToCrafters(ContainerSFFurnace.java:46)
+	at cpw.mods.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:88)
+	at com.ItakPC.plasmaticspace.machine.solidFuelFurnace.SolidFuelFurnace.onBlockActivated(SolidFuelFurnace.java:98)
+	at net.minecraft.server.management.ItemInWorldManager.activateBlockOrUseItem(ItemInWorldManager.java:409)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:591)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:74)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:122)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:247)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:736)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:624)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:495)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:762)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.entity.player.InventoryPlayer.getStackInSlot(InventoryPlayer.java:648)
+	at net.minecraft.inventory.Slot.getStack(Slot.java:88)
+	at net.minecraft.inventory.Container.getInventory(Container.java:69)
+	at net.minecraft.inventory.Container.addCraftingToCrafters(Container.java:55)
+	at com.ItakPC.plasmaticspace.machine.solidFuelFurnace.ContainerSFFurnace.addCraftingToCrafters(ContainerSFFurnace.java:46)
+	at cpw.mods.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:88)
+	at com.ItakPC.plasmaticspace.machine.solidFuelFurnace.SolidFuelFurnace.onBlockActivated(SolidFuelFurnace.java:98)
+	at net.minecraft.server.management.ItemInWorldManager.activateBlockOrUseItem(ItemInWorldManager.java:409)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:591)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:74)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:122)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:247)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@5275acb8
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:736)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:624)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:495)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:762)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8 (amd64) version 6.2
+	Java Version: 1.7.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 647142872 bytes (617 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.25.1199 Minecraft Forge 10.13.0.1199 16 mods loaded, 16 mods active
+	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{7.10.25.1199} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.0.1199.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{10.13.0.1199} [Minecraft Forge] (forgeSrc-1.7.10-10.13.0.1199.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	CodeChickenCore{1.0.2.9} [CodeChicken Core] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	NotEnoughItems{1.0.2.15} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.2.15-dev.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	plasmaticspace{Plasmatic Space} [Plasmatic Space] (PlasmaCraft) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BuildCraft|Core{6.0.17} [BuildCraft] (buildcraft-6.0.17-dev.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BuildCraft|Builders{6.0.17} [BC Builders] (buildcraft-6.0.17-dev.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BuildCraft|Energy{6.0.17} [BC Energy] (buildcraft-6.0.17-dev.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BuildCraft|Factory{6.0.17} [BC Factory] (buildcraft-6.0.17-dev.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BuildCraft|Transport{6.0.17} [BC Transport] (buildcraft-6.0.17-dev.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BuildCraft|Silicon{6.0.17} [BC Silicon] (buildcraft-6.0.17-dev.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ExtraUtilities{1.1.0f} [Extra Utilities] (extrautilities-1.1.0f.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	IC2{2.2.575-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.575-experimental-dev.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Kradxns Minimap{2.0} [Minimap] (Kradxn-X-ray-Mod-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Waila{1.5.3} [Waila] (Waila-1.5.3_1.7.10 (1).jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['ForgeDevName'/22, l='PlasmaCraft 0.0.0', x=270.24, y=55.00, z=251.49]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
