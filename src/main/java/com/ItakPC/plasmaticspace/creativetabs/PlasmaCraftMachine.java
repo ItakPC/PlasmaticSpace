@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class PlasmaCraftMachine {
 
-    public static final CreativeTabs PlasmaCraftMachine = new CreativeTabs("plasmacraftMachine") {
+    public static final CreativeTabs PlasmaCraftMachine = new CreativeTabs("plasmaticspaceMachine") {
 
         public Item getTabIconItem() {
             return Item.getItemFromBlock(Blocks.redstone_torch);

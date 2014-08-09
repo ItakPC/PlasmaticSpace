@@ -25,7 +25,7 @@ public class TileEntityEnergyConduit extends TileEntity {
         else connections[2] = null;
         if(isConduit(xCoord, yCoord, zCoord+1) || isBaseWindmill(xCoord, yCoord, zCoord+1)) connections[3] = ForgeDirection.SOUTH;
         else connections[3] = null;
-        if(isConduit(xCoord-1, yCoord, zCoord) || isBaseWindmill(xCoord-1, yCoord+1, zCoord)) connections[4] = ForgeDirection.WEST;
+        if(isConduit(xCoord-1, yCoord, zCoord) || isBaseWindmill(xCoord-1, yCoord, zCoord)) connections[4] = ForgeDirection.WEST;
         else connections[4] = null;
         if(isConduit(xCoord+1, yCoord, zCoord) || isBaseWindmill(xCoord+1, yCoord, zCoord)) connections[5] = ForgeDirection.EAST;
         else connections[5] = null;

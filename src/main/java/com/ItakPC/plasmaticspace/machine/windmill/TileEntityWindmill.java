@@ -24,6 +24,7 @@ public class TileEntityWindmill extends TileEntity implements ISidedInventory {
     public float powerPerTick = 0;
 
     /** Updates Entity Each Tick */
+
     public void updateEntity() {
         if (this.getWorldObj().getBlockMetadata(this.xCoord, this.yCoord, this.zCoord) > 6) {
 
@@ -37,6 +38,14 @@ public class TileEntityWindmill extends TileEntity implements ISidedInventory {
 
             power += powerPerTick;
             if (power > maxPower) power = maxPower;
+        }
+    }
+
+    public void hasPower() {
+        if(power > 0) {
+            boolean gotPower = true;
+        }else{
+            boolean gotPower = false;
         }
     }
 

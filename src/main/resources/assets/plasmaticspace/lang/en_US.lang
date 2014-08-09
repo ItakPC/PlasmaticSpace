@@ -1,29 +1,77 @@
 
-/* DEBUG */
-item.plasmacraft:debugTool.name=Debug Tool
-tile.blockWindmill.name=Windmill DEBUG
+/* Items */
+item.plasmaticspace:debugTool.name=Debug Tool
+
 item.itemWindmill.name=Windmill
 
+item.plasmaticspace:itemPlasmaticFist.name=Plasmatic Fist
+
 /* Decoration Blocks - Smooth */
-tile.plasmacraft:blockMarble.name=Marble Block
-tile.plasmacraft:blockBasalt.name=Basalt Block
-tile.plasmacraft:blockLimestone.name=Limestone Block
+tile.plasmaticspace:blockMarble.name=Marble Block
+tile.plasmaticspace:blockBasalt.name=Basalt Block
+tile.plasmaticspace:blockLimestone.name=Limestone Block
 
 /* Decoration Blocks - Bricks */
-tile.plasmacraft:blockMarbleBrick.name=Marble Brick
-tile.plasmacraft:blockBasaltBrick.name=Basalt Brick
-tile.plasmacraft:blockLimestoneBrick.name=Limestone Brick
+tile.plasmaticspace:blockMarbleBrick.name=Marble Brick
+tile.plasmaticspace:blockBasaltBrick.name=Basalt Brick
+tile.plasmaticspace:blockLimestoneBrick.name=Limestone Brick
 
 /* Decoration Blocks - Small Bricks */
-tile.plasmacraft:blockMarbleSmallBrick.name=Marble Small Brick
-tile.plasmacraft:blockBasaltSmallBrick.name=Basalt Small Brick
-tile.plasmacraft:blockLimestoneSmallBrick.name=Limestone Small Brick
+tile.plasmaticspace:blockMarbleSmallBrick.name=Marble Small Brick
+tile.plasmaticspace:blockBasaltSmallBrick.name=Basalt Small Brick
+tile.plasmaticspace:blockLimestoneSmallBrick.name=Limestone Small Brick
 
 /* Decoration Blocks - Lights */
-tile.plasmacraft:marbleLight.name=Marble Light
-tile.plasmacraft:basaltLight.name=Basalt Light
+tile.plasmaticspace:marbleLight.name=Marble Light
+tile.plasmaticspace:basaltLight.name=Basalt Light
+
+/* Ores */
+//Iron
+tile.plasmaticspace:oreHematite.name=Hematite Ore
+tile.plasmaticspace:oreMagnetite.name=Magnetite Ore
+
+//Gold
+tile.plasmaticspace:oreMaldonite.name=Maldonite Ore
+tile.plasmaticspace:oreAuricupride.name=Auricupride Ore
+
+//Coal
+tile.plasmaticspace:oreLignite.name=Lignite Coal Ore
+tile.plasmaticspace:oreBituminousCoal.name=Bituminous Coal Ore
+tile.plasmaticspace:oreSubbituminousCoal.name=Sub-Bituminous Coal Ore
+tile.plasmaticspace:oreGraphite.name=Graphite Ore
+
+tile.plasmaticspace:oreChalcopyrite.name=Chalcopyrite Ore
+tile.plasmaticspace:oreChalcocite.name=Chalcocite Ore
+tile.plasmaticspace:oreMalachite.name=Malachite Ore
+
+tile.plasmaticspace:oreCassiterite.name=Cassiterite Ore
+tile.plasmaticspace:oreStannite.name=Stannite Ore
+
+tile.plasmaticspace:oreArgentite.name=Argentite Ore
+tile.plasmaticspace:oreChlorargyrite.name=Chlorargyrite Ore
+
+tile.plasmaticspace:oreGalena.name=Galena Ore
+tile.plasmaticspace:oreCerussite.name=Cerussite Ore
+tile.plasmaticspace:oreAnglesite.name=Anglesite Ore
+
+/* Machines */
+tile.blockWindmill.name=Windmill
+tile.solidFuelFurnaceIdle.name=Solid Fuel Furnace
+tile.solidFuelFurnaceActive.name=Solid Fuel Furnace
 
 /* Creative Tabs */
-itemGroup.plasmacraftItems=PlasmaCraft Items
-itemGroup.plasmacraftBlocks=PlasmaCraft Blocks
-itemGroup.plasmacraftMachine=PlasmaCraft Machine
+itemGroup.plasmaticspaceItems=PlasmaticSpace Items
+itemGroup.plasmaticspaceBlocks=PlasmaticSpace Blocks
+itemGroup.plasmaticspaceMachine=PlasmaticSpace Machine
+
+/* Achievements */
+achievement.mineOre=You Entered Plasmatic Age!
+achievement.mineOre.desc=You Did It!
+achievement.craftFurnace=Better Than Vanilla
+achievement.craftFurnace.desc=You Get More For Less ;D
+
+item.plasmaticspace:itemLigniteCoal.name=Lignite Coal
+item.plasmaticspace:itemSubbituminousCoal.name=Sub-Bituminous Coal
+item.plasmaticspace:itemBituminousCoal.name=Bituminous Coal
+item.plasmaticspace:itemGraphite.name=Graphite
+

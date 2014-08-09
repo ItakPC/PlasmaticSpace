@@ -141,13 +141,13 @@ public class TileEntityRenderWindmill extends TileEntitySpecialRenderer {
             GL11.glTranslatef(0.5F, 0.5F, 0.5F);
 
             if (direction.equals(ForgeDirection.EAST)) {
-                GL11.glRotatef(-90, 1, 0, 0);
+                GL11.glRotatef(-270, 1, 0, 0);
             } else if(direction.equals(ForgeDirection.NORTH)) {
-                GL11.glRotatef(90, 0, 0, 1);
+                GL11.glRotatef(270, 0, 0, 1);
             } else if (direction.equals(ForgeDirection.SOUTH)) {
-                GL11.glRotatef(-90, 0, 0, 1);
+                GL11.glRotatef(-270, 0, 0, 1);
             } else if (direction.equals(ForgeDirection.WEST)) {
-                GL11.glRotatef(90, 1, 0, 0);
+                GL11.glRotatef(270, 1, 0, 0);
             }
 
             GL11.glTranslatef(-0.5F, -0.5F, -0.5F);
@@ -201,13 +201,13 @@ public class TileEntityRenderWindmill extends TileEntitySpecialRenderer {
             GL11.glTranslatef(0.5F, 0.5F, 0.5F);
 
             if (direction.equals(ForgeDirection.EAST)) {
-                GL11.glRotatef(90, 1, 0, 0);
+                GL11.glRotatef(270, 1, 0, 0);
             } else if(direction.equals(ForgeDirection.NORTH)) {
-                GL11.glRotatef(-90, 0, 0, 1);
+                GL11.glRotatef(-270, 0, 0, 1);
             } else if (direction.equals(ForgeDirection.SOUTH)) {
-                GL11.glRotatef(90, 0, 0, 1);
+                GL11.glRotatef(270, 0, 0, 1);
             } else if (direction.equals(ForgeDirection.WEST)) {
-                GL11.glRotatef(-90, 1, 0, 0);
+                GL11.glRotatef(-270, 1, 0, 0);
             }
 
             GL11.glTranslatef(-0.5F, -0.5F, -0.5F);

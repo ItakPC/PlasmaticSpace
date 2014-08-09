@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class PlasmaCraftItems {
 
-    public static final CreativeTabs PlasmaCraftItems = new CreativeTabs("plasmacraftItems") {
+    public static final CreativeTabs PlasmaCraftItems = new CreativeTabs("plasmaticspaceItems") {
         @Override
         public Item getTabIconItem() {
             return ModItems.debugTool;

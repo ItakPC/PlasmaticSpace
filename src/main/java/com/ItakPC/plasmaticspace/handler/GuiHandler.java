@@ -1,6 +1,9 @@
 package com.ItakPC.plasmaticspace.handler;
 
 import com.ItakPC.plasmaticspace.PlasmaticSpace;
+import com.ItakPC.plasmaticspace.machine.solidFuelFurnace.GuiSFFurnace;
+import com.ItakPC.plasmaticspace.machine.solidFuelFurnace.ContainerSFFurnace;
+import com.ItakPC.plasmaticspace.machine.solidFuelFurnace.TileEntitySFFurnace;
 import com.ItakPC.plasmaticspace.machine.windmill.ContainerWindmill;
 import com.ItakPC.plasmaticspace.machine.windmill.GuiWindmill;
 import com.ItakPC.plasmaticspace.machine.windmill.TileEntityWindmill;
@@ -24,6 +27,17 @@ public class GuiHandler implements IGuiHandler {
 
         }
 
+        if(tileEntity != null) {
+            switch (ID) {
+                case PlasmaticSpace.guiIdSFFurnace:
+                    if(tileEntity instanceof TileEntitySFFurnace) {
+                        return new ContainerSFFurnace(player.inventory, (TileEntitySFFurnace) tileEntity);
+                    }
+
+                    return null;
+            }
+        }
+
         return null;
     }
 
@@ -39,6 +53,17 @@ public class GuiHandler implements IGuiHandler {
 
                 return new GuiWindmill(player.inventory, (TileEntityWindmill) world.getTileEntity(x, y, z));
 
+        }
+
+        if(tileEntity != null) {
+            switch (ID) {
+                case PlasmaticSpace.guiIdSFFurnace:
+                    if(tileEntity instanceof TileEntitySFFurnace) {
+                        return new GuiSFFurnace(player.inventory, (TileEntitySFFurnace) tileEntity);
+                    }
+
+                    return null;
+            }
         }
 
         return null;

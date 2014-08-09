@@ -13,6 +13,9 @@ public class BaseBlock extends Block {
     public BaseBlock(Material material) {
         super(material);
         this.setCreativeTab(PlasmaCraftBlocks.PlasmaCraftBlocks);
+        this.setHardness(3F);
+        this.setResistance(5F);
+
     }
 
 

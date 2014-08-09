@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class PlasmaCraftBlocks {
 
-    public static final CreativeTabs PlasmaCraftBlocks = new CreativeTabs("plasmacraftBlocks") {
+    public static final CreativeTabs PlasmaCraftBlocks = new CreativeTabs("plasmaticspaceBlocks") {
         @Override
         public Item getTabIconItem() {
             return Item.getItemFromBlock(Decoration.blockBasalt);
