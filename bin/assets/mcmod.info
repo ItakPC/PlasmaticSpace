@@ -1,0 +1,16 @@
+[
+{
+  "modid": "plasmacraft",
+  "name": "PlasmaCraft",
+  "description": "New awsome technical mod. BUT! In WIP :P",
+  "version": "0.0.0 Dev",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ItakPC"],
+  "credits": "Thanks for Pahimar's tutorials.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

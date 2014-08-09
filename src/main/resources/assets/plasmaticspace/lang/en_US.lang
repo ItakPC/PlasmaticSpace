@@ -1,0 +1,29 @@
+
+/* DEBUG */
+item.plasmacraft:debugTool.name=Debug Tool
+tile.blockWindmill.name=Windmill DEBUG
+item.itemWindmill.name=Windmill
+
+/* Decoration Blocks - Smooth */
+tile.plasmacraft:blockMarble.name=Marble Block
+tile.plasmacraft:blockBasalt.name=Basalt Block
+tile.plasmacraft:blockLimestone.name=Limestone Block
+
+/* Decoration Blocks - Bricks */
+tile.plasmacraft:blockMarbleBrick.name=Marble Brick
+tile.plasmacraft:blockBasaltBrick.name=Basalt Brick
+tile.plasmacraft:blockLimestoneBrick.name=Limestone Brick
+
+/* Decoration Blocks - Small Bricks */
+tile.plasmacraft:blockMarbleSmallBrick.name=Marble Small Brick
+tile.plasmacraft:blockBasaltSmallBrick.name=Basalt Small Brick
+tile.plasmacraft:blockLimestoneSmallBrick.name=Limestone Small Brick
+
+/* Decoration Blocks - Lights */
+tile.plasmacraft:marbleLight.name=Marble Light
+tile.plasmacraft:basaltLight.name=Basalt Light
+
+/* Creative Tabs */
+itemGroup.plasmacraftItems=PlasmaCraft Items
+itemGroup.plasmacraftBlocks=PlasmaCraft Blocks
+itemGroup.plasmacraftMachine=PlasmaCraft Machine

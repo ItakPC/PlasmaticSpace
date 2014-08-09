@@ -1,0 +1,32 @@
+package com.ItakPC.plasmacraft;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = PlasmaCraft.MODID, version = PlasmaCraft.VERSION)
+public class PlasmaCraft {
+	
+	@Mod.Instance
+	public static PlasmaCraft instance;
+	
+    public static final String MODID = "plasmacraft";
+    public static final String VERSION = "0.0.0 Dev";
+    
+    @Mod.EventHandler
+    public void preInit(FMLPreInitializationEvent event) {
+    	
+    }
+    
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event) {
+    	
+    }
+    
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+    	
+    }
+}
