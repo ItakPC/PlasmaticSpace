@@ -207,6 +207,15 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="industrialcraft-2-2.2.575-experimental-dev">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/industrialcraft-2-2.2.575-experimental-dev.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/lib/industrialcraft-2-2.2.575-experimental-dev.jar!/" />
+      </SOURCES>
+    </library>
     <library name="NotEnoughItems-1.7.10-1.0.2.15-dev">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/NotEnoughItems-1.7.10-1.0.2.15-dev.jar!/" />

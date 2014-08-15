@@ -656,6 +656,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="industrialcraft-2-2.2.575-experimental-dev" level="project" />
   </component>
 </module>
 

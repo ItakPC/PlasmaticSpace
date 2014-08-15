@@ -1,9 +1,14 @@
 package com.ItakPC.plasmaticspace.tool;
 
+import com.ItakPC.plasmaticspace.reference.Reference;
 import com.google.common.collect.Sets;
 import java.util.Set;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -27,5 +32,29 @@ public class ItemDrill extends PlasmaticTool
     public float func_150893_a(ItemStack p_150893_1_, Block p_150893_2_)
     {
         return p_150893_2_.getMaterial() != Material.wood && p_150893_2_.getMaterial() != Material.plants && p_150893_2_.getMaterial() != Material.vine && p_150893_2_.getMaterial() != Material.iron && p_150893_2_.getMaterial() != Material.anvil && p_150893_2_.getMaterial() != Material.rock ? super.func_150893_a(p_150893_1_, p_150893_2_) : this.efficiencyOnProperMaterial;
+    }
+
+    @Override
+    public String getUnlocalizedName()
+    {
+        return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+    }
+
+    @Override
+    public String getUnlocalizedName(ItemStack itemStack)
+    {
+        return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+    }
+
+    @Override
+    @SideOnly(Side.CLIENT)
+    public void registerIcons(IIconRegister iconRegister)
+    {
+        itemIcon = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+    }
+
+    protected String getUnwrappedUnlocalizedName(String unlocalizedName)
+    {
+        return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
 }

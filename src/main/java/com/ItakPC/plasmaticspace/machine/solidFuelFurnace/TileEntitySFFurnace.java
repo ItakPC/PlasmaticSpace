@@ -42,7 +42,7 @@ public class TileEntitySFFurnace extends TileEntity implements ISidedInventory{
 
     @Override
     public int getSizeInventory() {
-        return 0;
+        return this.slots.length;
     }
 
     @Override
@@ -105,12 +105,12 @@ public class TileEntitySFFurnace extends TileEntity implements ISidedInventory{
 
     @Override
     public int getInventoryStackLimit() {
-        return 0;
+        return 64;
     }
 
     @Override
-    public boolean isUseableByPlayer(EntityPlayer player) {
-        return this.worldObj.getTileEntity(this.xCoord, this.yCoord, this.zCoord) != this ? false : player.getDistanceSq((double)this.xCoord + 0.5D, (double)this.yCoord + 0.5D, (double)this.zCoord + 0.5D) <= 64.0D;
+    public boolean isUseableByPlayer(EntityPlayer p_70300_1_) {
+        return this.worldObj.getTileEntity(this.xCoord, this.yCoord, this.zCoord) != this ? false : p_70300_1_.getDistanceSq((double)this.xCoord + 0.5D, (double)this.yCoord + 0.5D, (double)this.zCoord + 0.5D) <= 64.0D;
     }
 
     @Override

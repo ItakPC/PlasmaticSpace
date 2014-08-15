@@ -1,5 +1,8 @@
 package com.ItakPC.plasmaticspace.machine.windmill;
 
+import com.ItakPC.plasmaticspace.reference.Reference;
+import net.minecraft.block.Block;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.item.ItemStack;
