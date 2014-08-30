@@ -1,6 +1,6 @@
 package com.ItakPC.plasmaticspace.cable;
 
-import com.ItakPC.plasmaticspace.machine.windmill.TileEntityWindmill;
+import com.ItakPC.plasmaticspace.machine.windmill.TileWindTurbine;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.common.util.ForgeDirection;
 
@@ -37,7 +37,7 @@ public class TileEntityEnergyConduit extends TileEntity {
     }
 
     public boolean isBaseWindmill(int x, int y, int z) {
-        return this.worldObj.getTileEntity(x, y, z) instanceof TileEntityWindmill && this.worldObj.getBlockMetadata(x, y, z) == 1;
+        return this.worldObj.getTileEntity(x, y, z) instanceof TileWindTurbine && this.worldObj.getBlockMetadata(x, y, z) == 1;
     }
 
     public boolean onlyOneOpposite(ForgeDirection[] directions) {

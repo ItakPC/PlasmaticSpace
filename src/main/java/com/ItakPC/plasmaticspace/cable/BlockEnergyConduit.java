@@ -12,6 +12,7 @@ public class BlockEnergyConduit extends BlockContainer {
 
     public BlockEnergyConduit(Material material) {
         super(material);
+        this.setBlockName("conduit");
         this.useNeighborBrightness = true;
         this.setBlockBounds(11*pixel/2, 11*pixel/2, 11*pixel/2, 1-11*pixel/2, 1-11*pixel/2, 1-11*pixel/2);
     }

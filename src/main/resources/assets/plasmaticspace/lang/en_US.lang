@@ -54,21 +54,29 @@ tile.plasmaticspace:oreGalena.name=Galena Ore
 tile.plasmaticspace:oreCerussite.name=Cerussite Ore
 tile.plasmaticspace:oreAnglesite.name=Anglesite Ore
 
+tile.plasmaticspace:oreUranium.name=Uranium Ore
+tile.plasmaticspace:oreAluminum.name=Aluminum Ore
+tile.plasmaticspace:oreTitanium.name=Titanium Ore
+tile.plasmaticspace:oreIridium.name=Iridium Ore
+
 /* Machines */
 tile.blockWindmill.name=Windmill
 tile.solidFuelFurnaceIdle.name=Solid Fuel Furnace
 tile.solidFuelFurnaceActive.name=Solid Fuel Furnace
+tile.alloySmelter.name=Alloy Smelter
 
 /* Creative Tabs */
-itemGroup.plasmaticspaceItems=PlasmaticSpace Items
-itemGroup.plasmaticspaceBlocks=PlasmaticSpace Blocks
-itemGroup.plasmaticspaceMachine=PlasmaticSpace Machine
+itemGroup.plasmaticspaceItems=Plasmatic Space Items
+itemGroup.plasmaticspaceBlocks=Plasmatic Space Blocks
+itemGroup.plasmaticspaceMachine=Plasmatic Space Machine
 
 /* Achievements */
-achievement.mineOre=You Entered Plasmatic Age!
-achievement.mineOre.desc=You Did It!
+achievement.minePCOre=You Entered Plasmatic Age!
+achievement.minePCOre.desc=YAAAAY!
 achievement.craftFurnace=Better Than Vanilla
-achievement.craftFurnace.desc=You Get More For Less ;D
+achievement.craftFurnace.desc=More For Less
+achievement.craftAlloySmelter=Mixing Stuff
+achievement.craftAlloySmelter.desc=Craft Alloy Smelter.
 
 item.plasmaticspace:itemLigniteCoal.name=Lignite Coal
 item.plasmaticspace:itemSubbituminousCoal.name=Sub-Bituminous Coal

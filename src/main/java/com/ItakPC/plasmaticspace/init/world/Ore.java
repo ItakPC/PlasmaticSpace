@@ -15,6 +15,10 @@ import com.ItakPC.plasmaticspace.block.world.ore.iron.OreMagnetite;
 import com.ItakPC.plasmaticspace.block.world.ore.lead.OreAnglesite;
 import com.ItakPC.plasmaticspace.block.world.ore.lead.OreCerussite;
 import com.ItakPC.plasmaticspace.block.world.ore.lead.OreGalena;
+import com.ItakPC.plasmaticspace.block.world.ore.other.OreAluminum;
+import com.ItakPC.plasmaticspace.block.world.ore.other.OreIridium;
+import com.ItakPC.plasmaticspace.block.world.ore.other.OreTitanium;
+import com.ItakPC.plasmaticspace.block.world.ore.other.OreUranium;
 import com.ItakPC.plasmaticspace.block.world.ore.silver.OreArgentite;
 import com.ItakPC.plasmaticspace.block.world.ore.silver.OreChlorargyrite;
 import com.ItakPC.plasmaticspace.block.world.ore.tin.OreCassiterite;
@@ -22,6 +26,7 @@ import com.ItakPC.plasmaticspace.block.world.ore.tin.OreStannite;
 import com.ItakPC.plasmaticspace.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
+import scala.xml.dtd.impl.Base;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class Ore {
@@ -59,9 +64,10 @@ public class Ore {
     public static final BaseBlock oreAnglesite = new OreAnglesite();
 
     /** Other */
-    //public static final BaseBlock oreUranium = new OreUranium();
-    //public static final BaseBlock oreAluminum = new OreAluminum();
-    //public static final BaseBlock oreTitanium = new OreTitanium();
+    public static final BaseBlock oreUranium = new OreUranium();
+    public static final BaseBlock oreAluminum = new OreAluminum();
+    public static final BaseBlock oreTitanium = new OreTitanium();
+    public static final BaseBlock oreIridium = new OreIridium();
 
     public static void init() {
 
@@ -98,6 +104,11 @@ public class Ore {
         GameRegistry.registerBlock(oreGalena, "oreGalena");
         GameRegistry.registerBlock(oreCerussite, "oreCerussite");
         GameRegistry.registerBlock(oreAnglesite, "oreAnglesite");
+
+        GameRegistry.registerBlock(oreUranium, "oreUranium");
+        GameRegistry.registerBlock(oreAluminum, "oreAluminum");
+        GameRegistry.registerBlock(oreTitanium, "oreTitanium");
+        GameRegistry.registerBlock(oreIridium, "oreIridium");
 
     }
 

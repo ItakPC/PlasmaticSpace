@@ -13,15 +13,18 @@ import com.ItakPC.plasmaticspace.init.ModTools;
 import com.ItakPC.plasmaticspace.init.world.Decoration;
 import com.ItakPC.plasmaticspace.init.world.Ore;
 import com.ItakPC.plasmaticspace.item.tool.ItemPlasmaticFist;
-import com.ItakPC.plasmaticspace.machine.solidFuelFurnace.SolidFuelFurnace;
-import com.ItakPC.plasmaticspace.machine.solidFuelFurnace.TileEntitySFFurnace;
-import com.ItakPC.plasmaticspace.machine.windmill.ItemWindmill;
-import com.ItakPC.plasmaticspace.machine.windmill.BlockWindmill;
-import com.ItakPC.plasmaticspace.machine.windmill.TileEntityWindmill;
+import com.ItakPC.plasmaticspace.machine.alloySmelter.AlloySmelter;
+import com.ItakPC.plasmaticspace.machine.alloySmelter.TileEntityAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.cutter.Cutter;
+import com.ItakPC.plasmaticspace.machine.cutter.TileEntityCutter;
+import com.ItakPC.plasmaticspace.machine.windmill.ItemWindTurbine;
+import com.ItakPC.plasmaticspace.machine.windmill.TileWindTurbine;
+import com.ItakPC.plasmaticspace.machine.windmill.WindTurbine;
 import com.ItakPC.plasmaticspace.proxy.IProxy;
 import com.ItakPC.plasmaticspace.reference.Reference;
 import com.ItakPC.plasmaticspace.utility.Achievements;
 import com.ItakPC.plasmaticspace.world.OreGen;
+import com.ItakPC.plasmaticspace.world.WorldGen;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -39,20 +42,37 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class PlasmaticSpace {
 
+
     public static Item itemWindmill;
+
+    /** Tools */
     public static Item itemPlasmaticFist;
 
+    /** Generators */
     public static Block blockWindmill;
+
+    /** Conduits */
     public static Block energyConduit;
-    public static Block solidFuelFurnaceIdle;
-    public static Block solidFuelFurnaceActive;
 
+    /** Alloy Smelter */
+    public static Block alloySmelterIdle;
+    public static Block alloySmelterActive;
+
+    /** Cutter */
+    public static Block cutterIdle;
+    public static Block cutterActive;
+
+    /** GUI ID's */
     public static final int guiIDWindmillBasic = 0;
-    public static final int guiIdSFFurnace = 1;
+    public static final int guiIDAlloySmelter = 2;
+    public static final int guiIDCutter = 3;
 
+    /** Materials */
     public static Item.ToolMaterial PlasmaMaterial = EnumHelper.addToolMaterial("plasma", 16, 32000, 32F, 32F, 0);
 
+    /** World Generators */
     OreGen oreGen = new OreGen();
+    WorldGen worldGen = new WorldGen();
 
     @Mod.Instance
     public static PlasmaticSpace instance;
@@ -63,14 +83,17 @@ public class PlasmaticSpace {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
 
-        itemWindmill = new ItemWindmill().setTextureName("diamond").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine).setUnlocalizedName("itemWindmill");
+        itemWindmill = new ItemWindTurbine().setTextureName("diamond").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine).setUnlocalizedName("itemWindmill");
         itemPlasmaticFist = new ItemPlasmaticFist(PlasmaMaterial).setTextureName("itemPlasmaticFist").setUnlocalizedName("itemPlasmaticFist");
 
-        blockWindmill = new BlockWindmill(Material.iron).setBlockName("blockWindmill");
+        blockWindmill = new WindTurbine(Material.iron).setBlockName("blockWindmill");
         energyConduit = new BlockEnergyConduit(Material.iron).setBlockName("energyConduit").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
 
-        solidFuelFurnaceActive = new SolidFuelFurnace(true).setBlockName("solidFuelFurnaceActive");
-        solidFuelFurnaceIdle = new SolidFuelFurnace(false).setBlockName("solidFuelFurnaceIdle").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
+        alloySmelterActive = new AlloySmelter(true).setBlockName("alloySmelter");
+        alloySmelterIdle = new AlloySmelter(false).setBlockName("alloySmelter").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
+
+        cutterActive = new Cutter(true).setBlockName("cutter");
+        cutterIdle = new Cutter(false).setBlockName("cutter").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
 
         GameRegistry.registerItem(itemWindmill, "itemWindmill");
         GameRegistry.registerItem(itemPlasmaticFist, "itemPlasmaticFist");
@@ -78,8 +101,11 @@ public class PlasmaticSpace {
         GameRegistry.registerBlock(blockWindmill, "blockWindmill");
         GameRegistry.registerBlock(energyConduit, "energyConduit");
 
-        GameRegistry.registerBlock(solidFuelFurnaceActive, "solidFuelFurnaceActive");
-        GameRegistry.registerBlock(solidFuelFurnaceIdle, "solidFuelFurnaceIdle");
+        GameRegistry.registerBlock(alloySmelterActive, "alloySmelterActive");
+        GameRegistry.registerBlock(alloySmelterIdle, "alloySmelterIdle");
+
+        GameRegistry.registerBlock(cutterActive, "cutterActive");
+        GameRegistry.registerBlock(cutterIdle, "cutterIdle");
 
         GameRegistry.registerFuelHandler(new FuelHandler());
 
@@ -89,6 +115,7 @@ public class PlasmaticSpace {
         FMLCommonHandler.instance().bus().register(new EventHandler());
 
         GameRegistry.registerWorldGenerator(oreGen, 0);
+        GameRegistry.registerWorldGenerator(worldGen, 0);
 
         ModItems.init();
         ModBlocks.init();
@@ -101,9 +128,10 @@ public class PlasmaticSpace {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
 
-        GameRegistry.registerTileEntity(TileEntityWindmill.class, "windmillBasic");
+        GameRegistry.registerTileEntity(TileWindTurbine.class, "windmillBasic");
         GameRegistry.registerTileEntity(TileEntityEnergyConduit.class, "energyConduit");
-        GameRegistry.registerTileEntity(TileEntitySFFurnace.class, "sffurnace");
+        GameRegistry.registerTileEntity(TileEntityAlloySmelter.class, "alloySmelter");
+        GameRegistry.registerTileEntity(TileEntityCutter.class, "cutter");
 
         NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
 

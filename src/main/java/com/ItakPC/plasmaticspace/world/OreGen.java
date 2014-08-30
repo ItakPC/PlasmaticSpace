@@ -6,7 +6,6 @@ import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
-import scala.reflect.internal.Symbols;
 
 import java.util.Random;
 
@@ -33,8 +32,15 @@ public class OreGen implements IWorldGenerator {
     private void generateSurface(World world, Random random, int x, int z) {
         /** ore, world, random, posX, posZ, maxX, maxZ, maxVeinSize, chancetospawn, minY, maxY */
 
+        /** Coal */
+        this.addOreSpawn(Ore.oreLignite, world, random, x, z, 16, 16, 12, 5F , 24, 50);
+        this.addOreSpawn(Ore.oreSubbituminousCoal, world, random, x, z, 16, 16, 12, 5F , 24, 50);
+        this.addOreSpawn(Ore.oreBituminousCoal, world, random, x, z, 16, 16, 12, 5F , 24, 50);
+        this.addOreSpawn(Ore.oreGraphite, world, random, x, z, 16, 16, 12, 5F , 24, 50);
+        /** Iron */
         this.addOreSpawn(Ore.oreHematite, world, random, x, z, 16, 16, 8, 3F , 24, 50);
         this.addOreSpawn(Ore.oreMagnetite, world, random, x, z, 16, 16, 8, 3F , 24, 50);
+        /** Gold */
         this.addOreSpawn(Ore.oreAuricupride, world, random, x, z, 16, 16, 8, 0.75F, 10, 20);
         this.addOreSpawn(Ore.oreMaldonite, world, random, x, z, 16, 16, 8, 0.75F , 10, 20);
     }

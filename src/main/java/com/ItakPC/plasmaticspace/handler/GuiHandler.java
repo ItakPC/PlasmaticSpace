@@ -1,12 +1,15 @@
 package com.ItakPC.plasmaticspace.handler;
 
 import com.ItakPC.plasmaticspace.PlasmaticSpace;
-import com.ItakPC.plasmaticspace.machine.solidFuelFurnace.GuiSFFurnace;
-import com.ItakPC.plasmaticspace.machine.solidFuelFurnace.ContainerSFFurnace;
-import com.ItakPC.plasmaticspace.machine.solidFuelFurnace.TileEntitySFFurnace;
-import com.ItakPC.plasmaticspace.machine.windmill.ContainerWindmill;
-import com.ItakPC.plasmaticspace.machine.windmill.GuiWindmill;
-import com.ItakPC.plasmaticspace.machine.windmill.TileEntityWindmill;
+import com.ItakPC.plasmaticspace.machine.alloySmelter.ContainerAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.alloySmelter.GuiAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.alloySmelter.TileEntityAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.cutter.ContainerCutter;
+import com.ItakPC.plasmaticspace.machine.cutter.GuiCutter;
+import com.ItakPC.plasmaticspace.machine.cutter.TileEntityCutter;
+import com.ItakPC.plasmaticspace.machine.windmill.ContainerWindTurbine;
+import com.ItakPC.plasmaticspace.machine.windmill.GuiWindTurbine;
+import com.ItakPC.plasmaticspace.machine.windmill.TileWindTurbine;
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
@@ -19,23 +22,32 @@ public class GuiHandler implements IGuiHandler {
 
         switch (ID) {
             case PlasmaticSpace.guiIDWindmillBasic:
-                while (tileEntity instanceof TileEntityWindmill && world.getBlockMetadata(x, y, z) < 8) {
+                while (tileEntity instanceof TileWindTurbine && world.getBlockMetadata(x, y, z) < 8) {
                     y++;
                 }
 
-                return new ContainerWindmill(player.inventory, (TileEntityWindmill) world.getTileEntity(x, y, z));
+                return new ContainerWindTurbine(player.inventory, (TileWindTurbine) world.getTileEntity(x, y, z));
 
         }
 
         if(tileEntity != null) {
             switch (ID) {
-                case PlasmaticSpace.guiIdSFFurnace:
-                    if(tileEntity instanceof TileEntitySFFurnace) {
-                        return new ContainerSFFurnace(player.inventory, (TileEntitySFFurnace) tileEntity);
+                case PlasmaticSpace.guiIDAlloySmelter:
+                    if(tileEntity instanceof TileEntityAlloySmelter) {
+                        return new ContainerAlloySmelter(player.inventory, (TileEntityAlloySmelter) tileEntity);
+                    }
+
+                    return null;
+
+                case PlasmaticSpace.guiIDCutter:
+                    if(tileEntity instanceof TileEntityCutter) {
+                        return new ContainerCutter(player.inventory, (TileEntityCutter) tileEntity);
                     }
 
                     return null;
             }
+
+
         }
 
         return null;
@@ -47,23 +59,31 @@ public class GuiHandler implements IGuiHandler {
 
         switch (ID) {
             case PlasmaticSpace.guiIDWindmillBasic:
-                while (tileEntity instanceof TileEntityWindmill && world.getBlockMetadata(x, y, z) < 8) {
+                while (tileEntity instanceof TileWindTurbine && world.getBlockMetadata(x, y, z) < 8) {
                     y++;
                 }
 
-                return new GuiWindmill(player.inventory, (TileEntityWindmill) world.getTileEntity(x, y, z));
+                return new GuiWindTurbine(player.inventory, (TileWindTurbine) world.getTileEntity(x, y, z));
 
         }
 
         if(tileEntity != null) {
             switch (ID) {
-                case PlasmaticSpace.guiIdSFFurnace:
-                    if(tileEntity instanceof TileEntitySFFurnace) {
-                        return new GuiSFFurnace(player.inventory, (TileEntitySFFurnace) tileEntity);
+                case PlasmaticSpace.guiIDAlloySmelter:
+                    if(tileEntity instanceof TileEntityAlloySmelter) {
+                        return new GuiAlloySmelter(player.inventory, (TileEntityAlloySmelter) tileEntity);
+                    }
+
+                    return null;
+
+                case PlasmaticSpace.guiIDCutter:
+                    if(tileEntity instanceof TileEntityCutter) {
+                        return new GuiCutter(player.inventory, (TileEntityCutter) tileEntity);
                     }
 
                     return null;
             }
+
         }
 
         return null;
