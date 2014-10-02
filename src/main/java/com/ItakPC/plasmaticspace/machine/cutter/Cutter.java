@@ -37,7 +37,7 @@ public class Cutter extends BlockContainer{
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconRegister) {
         this.blockIcon = iconRegister.registerIcon(Reference.MOD_ID + ":" + (this.isActive ? "machineSideActive" : "machineSideIdle"));
-        this.iconFront = iconRegister.registerIcon(Reference.MOD_ID + ":" + "cutterFrontDefult");
+        this.iconFront = iconRegister.registerIcon(Reference.MOD_ID + ":" + (this.isActive ? "cutterDefultActive" : "cutterDefultIdle"));
 
     }
 
@@ -114,6 +114,6 @@ public class Cutter extends BlockContainer{
 
     @Override
     public TileEntity createNewTileEntity(World p_149915_1_, int p_149915_2_) {
-        return new TileEntityCutter();
+        return new TileCutter();
     }
 }

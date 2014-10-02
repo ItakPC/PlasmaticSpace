@@ -13,14 +13,15 @@ import com.ItakPC.plasmaticspace.init.ModTools;
 import com.ItakPC.plasmaticspace.init.world.Decoration;
 import com.ItakPC.plasmaticspace.init.world.Ore;
 import com.ItakPC.plasmaticspace.item.tool.ItemPlasmaticFist;
-import com.ItakPC.plasmaticspace.machine.alloySmelter.AlloySmelter;
-import com.ItakPC.plasmaticspace.machine.alloySmelter.TileEntityAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.cutter.TileCutter;
+import com.ItakPC.plasmaticspace.machine.sfAlloySmelter.sfAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.sfAlloySmelter.sfTileAlloySmleter;
 import com.ItakPC.plasmaticspace.machine.cutter.Cutter;
-import com.ItakPC.plasmaticspace.machine.cutter.TileEntityCutter;
 import com.ItakPC.plasmaticspace.machine.windmill.ItemWindTurbine;
 import com.ItakPC.plasmaticspace.machine.windmill.TileWindTurbine;
 import com.ItakPC.plasmaticspace.machine.windmill.WindTurbine;
 import com.ItakPC.plasmaticspace.proxy.IProxy;
+import com.ItakPC.plasmaticspace.recipe.ShapedRecipes;
 import com.ItakPC.plasmaticspace.reference.Reference;
 import com.ItakPC.plasmaticspace.utility.Achievements;
 import com.ItakPC.plasmaticspace.world.OreGen;
@@ -55,12 +56,14 @@ public class PlasmaticSpace {
     public static Block energyConduit;
 
     /** Alloy Smelter */
-    public static Block alloySmelterIdle;
-    public static Block alloySmelterActive;
+    public static Block sfAlloySmelterIdle;
+    public static Block sfAlloySmelterActive;
 
     /** Cutter */
     public static Block cutterIdle;
     public static Block cutterActive;
+
+    //TODO Lathe and Forge Hammer And Power Gen :D (Not just boring wind turbine but some air polluting things {Solid Fuel, Semifluid and Fluid})
 
     /** GUI ID's */
     public static final int guiIDWindmillBasic = 0;
@@ -89,8 +92,8 @@ public class PlasmaticSpace {
         blockWindmill = new WindTurbine(Material.iron).setBlockName("blockWindmill");
         energyConduit = new BlockEnergyConduit(Material.iron).setBlockName("energyConduit").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
 
-        alloySmelterActive = new AlloySmelter(true).setBlockName("alloySmelter");
-        alloySmelterIdle = new AlloySmelter(false).setBlockName("alloySmelter").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
+        sfAlloySmelterActive = new sfAlloySmelter(true).setBlockName("sfAlloySmelter");
+        sfAlloySmelterIdle = new sfAlloySmelter(false).setBlockName("sfAlloySmelter").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
 
         cutterActive = new Cutter(true).setBlockName("cutter");
         cutterIdle = new Cutter(false).setBlockName("cutter").setCreativeTab(PlasmaCraftMachine.PlasmaCraftMachine);
@@ -101,8 +104,8 @@ public class PlasmaticSpace {
         GameRegistry.registerBlock(blockWindmill, "blockWindmill");
         GameRegistry.registerBlock(energyConduit, "energyConduit");
 
-        GameRegistry.registerBlock(alloySmelterActive, "alloySmelterActive");
-        GameRegistry.registerBlock(alloySmelterIdle, "alloySmelterIdle");
+        GameRegistry.registerBlock(sfAlloySmelterActive, "sfAlloySmelterActive");
+        GameRegistry.registerBlock(sfAlloySmelterIdle, "sfAlloySmelterIdle");
 
         GameRegistry.registerBlock(cutterActive, "cutterActive");
         GameRegistry.registerBlock(cutterIdle, "cutterIdle");
@@ -123,6 +126,7 @@ public class PlasmaticSpace {
         Ore.init();
         ModTools.init();
         Achievements.init();
+        ShapedRecipes.init();
     }
 
     @Mod.EventHandler
@@ -130,8 +134,8 @@ public class PlasmaticSpace {
 
         GameRegistry.registerTileEntity(TileWindTurbine.class, "windmillBasic");
         GameRegistry.registerTileEntity(TileEntityEnergyConduit.class, "energyConduit");
-        GameRegistry.registerTileEntity(TileEntityAlloySmelter.class, "alloySmelter");
-        GameRegistry.registerTileEntity(TileEntityCutter.class, "cutter");
+        GameRegistry.registerTileEntity(sfTileAlloySmleter.class, "sfAlloySmelter");
+        GameRegistry.registerTileEntity(TileCutter.class, "cutter");
 
         NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
 

@@ -1,12 +1,12 @@
 package com.ItakPC.plasmaticspace.handler;
 
 import com.ItakPC.plasmaticspace.PlasmaticSpace;
-import com.ItakPC.plasmaticspace.machine.alloySmelter.ContainerAlloySmelter;
-import com.ItakPC.plasmaticspace.machine.alloySmelter.GuiAlloySmelter;
-import com.ItakPC.plasmaticspace.machine.alloySmelter.TileEntityAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.cutter.TileCutter;
+import com.ItakPC.plasmaticspace.machine.sfAlloySmelter.sfContainerAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.sfAlloySmelter.sfGuiAlloySmelter;
+import com.ItakPC.plasmaticspace.machine.sfAlloySmelter.sfTileAlloySmleter;
 import com.ItakPC.plasmaticspace.machine.cutter.ContainerCutter;
 import com.ItakPC.plasmaticspace.machine.cutter.GuiCutter;
-import com.ItakPC.plasmaticspace.machine.cutter.TileEntityCutter;
 import com.ItakPC.plasmaticspace.machine.windmill.ContainerWindTurbine;
 import com.ItakPC.plasmaticspace.machine.windmill.GuiWindTurbine;
 import com.ItakPC.plasmaticspace.machine.windmill.TileWindTurbine;
@@ -33,15 +33,15 @@ public class GuiHandler implements IGuiHandler {
         if(tileEntity != null) {
             switch (ID) {
                 case PlasmaticSpace.guiIDAlloySmelter:
-                    if(tileEntity instanceof TileEntityAlloySmelter) {
-                        return new ContainerAlloySmelter(player.inventory, (TileEntityAlloySmelter) tileEntity);
+                    if(tileEntity instanceof sfTileAlloySmleter) {
+                        return new sfContainerAlloySmelter(player.inventory, (sfTileAlloySmleter) tileEntity);
                     }
 
                     return null;
 
                 case PlasmaticSpace.guiIDCutter:
-                    if(tileEntity instanceof TileEntityCutter) {
-                        return new ContainerCutter(player.inventory, (TileEntityCutter) tileEntity);
+                    if(tileEntity instanceof TileCutter) {
+                        return new ContainerCutter(player.inventory, (TileCutter) tileEntity);
                     }
 
                     return null;
@@ -70,15 +70,15 @@ public class GuiHandler implements IGuiHandler {
         if(tileEntity != null) {
             switch (ID) {
                 case PlasmaticSpace.guiIDAlloySmelter:
-                    if(tileEntity instanceof TileEntityAlloySmelter) {
-                        return new GuiAlloySmelter(player.inventory, (TileEntityAlloySmelter) tileEntity);
+                    if(tileEntity instanceof sfTileAlloySmleter) {
+                        return new sfGuiAlloySmelter(player.inventory, (sfTileAlloySmleter) tileEntity);
                     }
 
                     return null;
 
                 case PlasmaticSpace.guiIDCutter:
-                    if(tileEntity instanceof TileEntityCutter) {
-                        return new GuiCutter(player.inventory, (TileEntityCutter) tileEntity);
+                    if(tileEntity instanceof TileCutter) {
+                        return new GuiCutter(player.inventory, (TileCutter) tileEntity);
                     }
 
                     return null;

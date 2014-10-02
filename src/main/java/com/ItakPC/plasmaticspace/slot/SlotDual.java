@@ -1,6 +1,5 @@
 package com.ItakPC.plasmaticspace.slot;
 
-import com.ItakPC.plasmaticspace.machine.alloySmelter.TileEntityAlloySmelter;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;

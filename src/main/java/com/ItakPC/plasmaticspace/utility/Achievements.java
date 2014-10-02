@@ -19,7 +19,7 @@ public class Achievements {
     public static void init() {
 
         enterPlasmaticAge = new Achievement("achievement.enterPlasmaticAge", "minePCOre", 0, 0, new ItemStack(Ore.oreBituminousCoal), (Achievement) AchievementList.buildBetterPickaxe).initIndependentStat().setSpecial().registerStat();
-        combiningThings = new Achievement("achievement.combiningThings", "craftAlloySmelter", 0, 2, new ItemStack(PlasmaticSpace.alloySmelterIdle), (Achievement) Achievements.enterPlasmaticAge).initIndependentStat().registerStat();
+        combiningThings = new Achievement("achievement.combiningThings", "craftAlloySmelter", 0, 2, new ItemStack(PlasmaticSpace.sfAlloySmelterIdle), (Achievement) Achievements.enterPlasmaticAge).initIndependentStat().registerStat();
 
         AchievementPage.registerAchievementPage(new AchievementPage("Plasmatic Space", new Achievement[]{enterPlasmaticAge, betterFurnace, combiningThings}));
     }

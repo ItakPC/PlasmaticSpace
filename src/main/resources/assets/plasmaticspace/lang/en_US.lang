@@ -61,9 +61,10 @@ tile.plasmaticspace:oreIridium.name=Iridium Ore
 
 /* Machines */
 tile.blockWindmill.name=Windmill
-tile.solidFuelFurnaceIdle.name=Solid Fuel Furnace
-tile.solidFuelFurnaceActive.name=Solid Fuel Furnace
-tile.alloySmelter.name=Alloy Smelter
+tile.sfAlloySmelter.name=Solid Fueled Alloy Smelter
+
+/* Containers */
+container.alloySmelter=Alloy Smelter
 
 /* Creative Tabs */
 itemGroup.plasmaticspaceItems=Plasmatic Space Items
@@ -73,8 +74,6 @@ itemGroup.plasmaticspaceMachine=Plasmatic Space Machine
 /* Achievements */
 achievement.minePCOre=You Entered Plasmatic Age!
 achievement.minePCOre.desc=YAAAAY!
-achievement.craftFurnace=Better Than Vanilla
-achievement.craftFurnace.desc=More For Less
 achievement.craftAlloySmelter=Mixing Stuff
 achievement.craftAlloySmelter.desc=Craft Alloy Smelter.
 

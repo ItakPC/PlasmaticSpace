@@ -15,7 +15,7 @@ java.lang.NullPointerException: Rendering screen
 	at java.lang.String.format(String.java:2797)
 	at net.minecraft.client.resources.Locale.formatMessage(Locale.java:146)
 	at net.minecraft.client.resources.I18n.format(I18n.java:22)
-	at com.ItakPC.plasmaticspace.machine.alloySmelter.GuiAlloySmelter.drawGuiContainerForegroundLayer(GuiAlloySmelter.java:27)
+	at com.ItakPC.plasmaticspace.machine.sfAlloySmelter.GuiAlloySmelter.drawGuiContainerForegroundLayer(GuiAlloySmelter.java:27)
 	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:138)
 	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1145)
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1066)
@@ -51,12 +51,12 @@ Stacktrace:
 	at java.lang.String.format(String.java:2797)
 	at net.minecraft.client.resources.Locale.formatMessage(Locale.java:146)
 	at net.minecraft.client.resources.I18n.format(I18n.java:22)
-	at com.ItakPC.plasmaticspace.machine.alloySmelter.GuiAlloySmelter.drawGuiContainerForegroundLayer(GuiAlloySmelter.java:27)
+	at com.ItakPC.plasmaticspace.machine.sfAlloySmelter.GuiAlloySmelter.drawGuiContainerForegroundLayer(GuiAlloySmelter.java:27)
 	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:138)
 
 -- Screen render details --
 Details:
-	Screen name: com.ItakPC.plasmaticspace.machine.alloySmelter.GuiAlloySmelter
+	Screen name: com.ItakPC.plasmaticspace.machine.sfAlloySmelter.GuiAlloySmelter
 	Mouse location: Scaled: (213, 119). Absolute: (427, 240)
 	Screen size: Scaled: (427, 240). Absolute: (854, 480). Scale factor of 2
 
